@@ -5588,9 +5588,16 @@ ul.res-search-tabs {
     background: #FF6000;
 }
 .side .md>ul:nth-of-type(1) {
-    height: 0;
+    height: 20px;
     overflow: hidden;
     margin: 0;
+}
+.side .md>ul:nth-of-type(1):before {
+    content: '[ HOVER TO SHOW ]';
+    font-size: 14px;
+}
+.side .md>ul:nth-of-type(1):hover:before {
+    display:none;
 }
 .side .md>ul:nth-of-type(1):hover {
     height: auto;
@@ -5600,6 +5607,9 @@ ul.res-search-tabs {
 }
 .side .md>h3:nth-of-type(4):hover + ul {
     height: auto;
+}
+.side .md>h3:nth-of-type(4):hover + ul:before {
+    display: none;
 }
 .usertext-body table>tbody>tr:nth-of-type(even) {
     background: #eee;
