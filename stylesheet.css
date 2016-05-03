@@ -5604,3 +5604,19 @@ ul.res-search-tabs {
 .usertext-body table>tbody>tr:nth-of-type(even) {
     background: #eee;
 }
+.thing[data-author="duelystwikibot"] form {
+    height: 25px;
+    overflow: hidden;
+}
+.thing[data-author="duelystwikibot"]:hover form {
+    height: auto;
+}
+.thing[data-author="duelystwikibot"] .usertext-body:before {
+    content: '[ HOVER TO SHOW ]';
+    font-size: 16px;
+    position: relative;
+    top: 5px;
+}
+.thing[data-author="duelystwikibot"]:hover .usertext-body:before {
+    display: none;
+}
