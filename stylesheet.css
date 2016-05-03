@@ -1,0 +1,5579 @@
+.flair,
+button {
+    white-space: nowrap
+}
+
+span.pagename.redditname a {
+    color: transparent;
+    display: block;
+    width: 420px;
+    background-image: url(%%duelysttitlenew%%);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: -150px auto 0!important;
+    top: -25px;
+    left: 0
+}
+
+#header::after {
+    position: absolute;
+    top: 202px;
+    width: 100%;
+    height: 48px;
+    background: rgba(0, 0, 0, .5);
+    content: " ";
+    z-index: -1
+}
+
+#header-bottom-left .tabmenu,
+.tabmenu li,
+.tabmenu li a {
+    background-color: transparent
+}
+
+#header-bottom-left .tabmenu {
+    text-align: left;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 180px;
+    padding-left: 80px
+}
+
+.tabmenu {
+    margin-top: 22px
+}
+
+.tabmenu li {
+    margin: 0!important;
+    height: 36px;
+    width: 102px
+}
+
+.choice.primary,
+.selected {
+    font-weight: 600
+}
+
+.tabmenu li a {
+    padding: 0 20px!important;
+    border-left: none;
+    border-right: none;
+    display: inline-block;
+    line-height: 48px;
+    text-align: center;
+    text-transform: Uppercase;
+    transition: 150ms;
+    -webkit-transition: 150ms;
+    font-weight: 400;
+    color: #e5e5e5!important;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, .5)
+}
+
+#hsts_pixel,
+.action-form input:disabled,
+.listing-page .tabmenu li a[href*="/gilded"],
+button[disabled] {
+    display: none
+}
+
+.RESDropdownList li,
+.action-form,
+.deepthread,
+.loadFlat,
+.pretty-button,
+.pretty-button.pressed:after,
+.usertext .help-toggle,
+.usertext a.reddiquette,
+ul.report-reasons {
+    text-transform: uppercase
+}
+
+.tabmenu li.selected a,
+.tabmenu li:hover a {
+    color: #FFF!important;
+    font-weight: 700!important
+}
+
+.tabmenu li:hover a {
+    background-color: rgba(255, 255, 255, .08)
+}
+
+.tabmenu li.selected a {
+    background-color: rgba(255, 255, 255, .15);
+    border: none!important
+}
+
+.commentarea span.score,
+.deepthread,
+.deepthread::after,
+.loadFlat,
+.usertext .help-toggle:hover,
+.usertext a.reddiquette:hover {
+    font-weight: 700
+}
+
+#header .tabmenu li:nth-of-type(8) {
+    display: none;
+    visibility: hidden
+}
+
+#header-img {
+    position: relative;
+    height: 50px!important;
+    width: 50px!important;
+    margin-top: 175px;
+    margin-left: 15px;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    z-index: 1
+}
+
+.deepthread::after {
+    background-image: none;
+    content: ">";
+    font-size: 12px
+}
+
+.deepthread {
+    font-size: 9.2px
+}
+
+.markdownEditor .edit-btn:not(.btn-macro) {
+    background-color: transparent!important;
+    border: 1px solid #c6c6c6;
+    border-radius: 3px
+}
+
+.side #search_showmore {
+    color: #bbb
+}
+
+.search-expando-button-label-collapsed,
+.search-expando-button-label-expanded {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px
+}
+
+.sr-bar .separator {
+    color: transparent;
+    font-size: 8px
+}
+
+.BEFoot button {
+    margin-right: 5px
+}
+
+a#sr-more-link[href="https://www.reddit.com/subreddits/"] {
+    background: rgba(0, 0, 0, .6)!important;
+    color: #fff;
+    padding: 3px 15px
+}
+
+a {
+    text-decoration: none;
+    color: #666
+}
+
+.thing .title:visited {
+    color: #331f6d
+}
+
+.flairselector li:hover {
+    border-radius: 20px
+}
+
+.flair {
+    cursor: default
+}
+
+.loadFlat {
+    position: relative!important;
+    z-index: 1;
+    font-size: 10px;
+    margin-left: 10px;
+    transition: .2s
+}
+
+.link.last-clicked {
+    border: none
+}
+
+div#RESStyleSheetTipPane,
+div#RESStyleSheetTipPane-header {
+    border: none!important
+}
+
+.toc ul {
+    background: #fff
+}
+
+.commentNavSortType:hover,
+.commentarea .menuarea .toggle a:hover {
+    text-decoration: none!important
+}
+
+.roundfield input[type=text],
+.roundfield input[type=url],
+.roundfield textarea {
+    transition: .3s;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    height: 25px
+}
+
+.commentarea textarea:not(:focus):not(:hover) {
+    background-color: #F8F8F8!important
+}
+
+.commentarea textarea:hover,
+.roundfield input[type=text]:hover,
+.roundfield input[type=url]:hover,
+.roundfield textarea:hover {
+    border-bottom: 1px solid #999
+}
+
+#img-name:focus,
+.roundfield input[type=text]:focus,
+.roundfield input[type=url]:focus,
+.roundfield textarea:focus {
+    border-bottom: 2px solid
+}
+
+.usertext-edit textarea:hover {
+    border: 1px solid #999
+}
+
+.usertext-edit textarea:focus {
+    border-top: 1px solid #e1e1e1!important;
+    border-left: 1px solid #e1e1e1!important;
+    border-right: 1px solid #e1e1e1!important;
+    border-bottom: 3px solid
+}
+
+.usertext-edit textarea {
+    transition: .2s;
+    height: 100px;
+    font-size: 1em;
+    border: 1px solid #ccc
+}
+
+#RESPrefsDropdown {
+    background-color: rgba(0, 0, 0, .85)!important;
+    border: none;
+    border-radius: 6px
+}
+
+.RESDropdownList li {
+    background-color: transparent;
+    color: #fff!important;
+    border: none!important;
+    transition: all .15s ease
+}
+
+.RESDropdownList li a:hover,
+.RESDropdownList li:hover {
+    background-color: rgba(80, 80, 80, .6)!important;
+    color: #fff!important
+}
+
+#NERFail {
+    padding-top: 20px;
+    border: none
+}
+
+.link .domain {
+    visibility: hidden
+}
+
+.link .domain a {
+    visibility: visible;
+    color: #b3b3b3;
+    transition: all .15s ease
+}
+
+.sr-bar a.gold {
+    color: gold
+}
+
+.icon-menu a {
+    background: 0 0
+}
+
+textarea {
+    border: 1px solid rgba(0, 0, 0, .12)
+}
+
+a.madeVisible {
+    margin-top: 20px
+}
+
+img.RESImage {
+    border-radius: 12px
+}
+
+.gold-accent.comment-visits-box {
+    color: #000
+}
+
+.action-form,
+.nsfw-stamp {
+    color: #fff;
+    font-weight: 700
+}
+
+.gold-accent {
+    background-color: transparent;
+    border: 0
+}
+
+.nsfw-stamp {
+    border: none!important;
+    background: #D10023;
+    padding: 0 8px!important;
+    border-radius: 20px
+}
+
+.action-form {
+    border: none;
+    max-width: 300px;
+    padding: 20px;
+    margin: 5px 0;
+    font-size: 12px;
+    line-height: 25px;
+    background: rgba(0, 0, 0, .85);
+    position: absolute;
+    z-index: 999
+}
+
+.action-form button {
+    margin-right: 10px
+}
+
+.action-form ol {
+    margin-bottom: 15px
+}
+
+.pretty-button {
+    background: 0 0!important;
+    font-weight: 700;
+    padding: 1px 5px;
+    border-radius: 20px;
+    font-size: 10px!important;
+    border: none!important
+}
+
+.pretty-button.negative {
+    color: #D10023
+}
+
+.pretty-button.neutral {
+    color: #444
+}
+
+.pretty-button.positive {
+    color: #2B8B27
+}
+
+.pretty-button.pressed {
+    font-size: 0!important
+}
+
+.pretty-button.pressed:after {
+    font-size: 10px;
+    content: "Action Done";
+    font-weight: 700
+}
+
+ul.report-reasons {
+    background-color: transparent;
+    border: none
+}
+
+.content .entry .buttons li.reported-stamp,
+body .content .over18 .entry .buttons li.reported-stamp,
+body .content .stickied .entry .buttons li.reported-stamp {
+    border: none!important;
+    background: #666!important;
+    color: #fff!important;
+    font-weight: 700;
+    text-transform: uppercase!important;
+    padding: 1px 8px;
+    border-radius: 20px;
+    font-size: 9px!important
+}
+
+.commentarea .nestedlisting {
+    margin: 0 -10px
+}
+
+.res-commentBoxes .nestedlisting>.comment {
+    margin: 0 0 8px!important
+}
+
+.res-commentBoxes .nestedlisting .comment {
+    overflow: visible!important
+}
+
+.commentarea .menuarea,
+.menuarea,
+.res h1.redditname {
+    overflow: visible
+}
+
+.dropdown.srdrop .selected {
+    color: #fff
+}
+
+.flat-list li a.gold {
+    color: gold
+}
+
+.tabpane-content {
+    border: none
+}
+
+.linefield {
+    background: 0 0
+}
+
+.linefield .title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px
+}
+
+.flairgrant.flairlist {
+    padding: 10px
+}
+
+.flair-jump button {
+    font-size: 12px
+}
+
+.fancy-settings h1 {
+    margin: 10px 5px;
+    text-transform: uppercase;
+    padding: 20px 30px 5px;
+    font-size: 18px
+}
+
+#img-name,
+.flairlist .flair-jump input[type=text] {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    transition: .3s;
+    display: block;
+    font-size: 22px;
+    margin-bottom: 20px
+}
+
+#img-name:hover,
+.flairlist .flair-jump input[type=text]:hover {
+    border-color: #666
+}
+
+.flairlisthome {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px
+}
+
+.flairrow,
+.stylesheet-customize-container h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.pretty-form {
+    padding: 20px 0
+}
+
+#img-preview-container {
+    border: none;
+    background: #444;
+    border-radius: 20px;
+    margin: 25px 10px -25px 0;
+    padding: 10px
+}
+
+.flairlist.usertable {
+    margin-top: 35px
+}
+
+.sheets {
+    margin-right: 20px;
+    margin-bottom: 20px
+}
+
+#preview-table {
+    padding-left: 20px
+}
+
+div#images {
+    margin-left: 20px;
+    padding-right: 20px
+}
+
+ul#image-preview-list {
+    margin: 20px -15px -15px;
+    padding-top: 0
+}
+
+ul#image-preview-list li {
+    background: #fff;
+    padding: 8px;
+    margin: 0 0 5px 5px;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    width: 296.5px;
+    height: 100px;
+    font-size: 14px;
+    color: #666
+}
+
+ul#image-preview-list .preview {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 8px;
+    right: 0;
+    margin: auto 0;
+    line-height: 98px
+}
+
+ul#image-preview-list .preview img {
+    vertical-align: middle
+}
+
+#search input[type=text],
+.login-form-side input[type=password],
+.login-form-side input[type=text],
+.md textarea,
+body,
+textarea {
+    font-family: -apple-system, San Francisco Display, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.title+.expando-button+.expando-button {
+    display: none
+}
+
+.drop-choices.lightdrop {
+    background: rgba(0, 0, 0, .85);
+    border: none;
+    padding: 5px;
+    border-radius: 0 0 4px 4px;
+    font-weight: 700;
+    margin-top: 2px;
+    color: #fff!important
+}
+
+.drop-choices a.choice {
+    color: #FFF
+}
+
+.drop-choices a.choice:hover {
+    background: rgba(80, 80, 80, .6)
+}
+
+#header-bottom-right a.pref-lang,
+#mail.havemail,
+#mail.nohavemail,
+#modmail.havemail,
+#modmail.nohavemail,
+.arrow.down,
+.arrow.downmod,
+.arrow.up,
+.arrow.upmod,
+.expando-button,
+.res #header-bottom-right .gearIcon,
+.stickied .thumbnail.self,
+.thumbnail.default,
+.thumbnail.nsfw,
+.thumbnail.self {
+    background: url(%%spritesheet%%)!important;
+    background-size: 50px 502px!important
+}
+
+#mail.nohavemail {
+    background-position: 0 0
+}
+
+#mail.havemail {
+    background-position: 0 -58.66px!important
+}
+
+#modmail.nohavemail {
+    background-position: 0 -82px!important
+}
+
+#modmail.havemail {
+    background-position: 0 -105.33px!important
+}
+
+#header-bottom-right a.pref-lang {
+    background-position: 0 -128.67px!important;
+    display: inline-block;
+    text-indent: -9999px
+}
+
+#RESMainGearOverlay,
+.infobar.newsletterbar {
+    display: none!important
+}
+
+.res #header-bottom-right .gearIcon {
+    background-position: 0 -152px!important
+}
+
+#header-bottom-right a.pref-lang,
+#mail.havemail,
+#mail.nohavemail,
+#modmail.havemail,
+#modmail.nohavemail,
+.res #header-bottom-right .gearIcon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle!important
+}
+
+.stickied .thumbnail.self,
+.thumbnail.default,
+.thumbnail.nsfw,
+.thumbnail.self {
+    width: 75px;
+    height: 50px;
+    background-size: 75px 753px!important
+}
+
+.stickied .thumbnail.self {
+    background-position: 0 -265px!important
+}
+
+.thumbnail.self {
+    background-position: 0 -345px!important
+}
+
+.thumbnail.default {
+    background-position: 0 -426px!important
+}
+
+.thumbnail.nsfw {
+    background-position: 0 -506px!important
+}
+
+.arrow.up {
+    background-position: 3px -685px!important
+}
+
+.arrow.upmod {
+    background-position: 2.3px -666px!important
+}
+
+.arrow.down {
+    background-position: 3px -699px!important
+}
+
+#modmail.havemail,
+#modmail.nohavemail {
+    margin-bottom: 0!important
+}
+
+.res #modmail.havemail,
+.res #modmail.nohavemail {
+    margin-bottom: -6px!important
+}
+
+body.res #header-bottom-right #mail.havemail {
+    top: -1px!important
+}
+
+#header-bottom-right a.pref-lang.choice,
+#mail.havemail,
+#mail.nohavemail,
+#modmail.havemail,
+#modmail.nohavemail {
+    background-repeat: no-repeat!important;
+    width: 20px!important;
+    height: 20px!important;
+    top: 0!important
+}
+
+.arrow.down,
+.arrow.downmod,
+.arrow.up,
+.arrow.upmod {
+    background-size: 37.5px 376.5px!important;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    transition: .2s
+}
+
+.arrow.upmod {
+    background-color: #ff4500!important;
+    margin-bottom: 5px
+}
+
+.arrow.downmod {
+    background-position: 3px -716px!important;
+    background-color: #2B9BDB!important;
+    margin-top: 5px
+}
+
+.expando-button,
+.expando-button.expanded,
+.expando-button.expanded:hover,
+.expando-button:hover {
+    background-position: 0 -482px!important;
+    width: 20px!important;
+    height: 20px!important;
+    transition: 150ms
+}
+
+.expando-button.expanded {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg)
+}
+
+.expando-button.expanded:hover,
+.expando-button:hover {
+    opacity: .5
+}
+
+.message-count {
+    left: 2px;
+    background-color: #ff9400
+}
+
+#header-bottom-right {
+    background: 0 0;
+    top: 217px!important;
+    right: 20px;
+    padding: 0!important
+}
+
+#header-bottom-right .user,
+#header-bottom-right .user .userkarma,
+#header-bottom-right a {
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.res #header-bottom-right #modmail {
+    top: -4px!important
+}
+
+.separator {
+    visibility: hidden
+}
+
+.gearIcon {
+    background-repeat: no-repeat!important
+}
+
+.res #userbarToggle {
+    width: 11px;
+    height: 48px;
+    background-color: transparent;
+    border: none;
+    line-height: 47px;
+    color: #FFF;
+    padding-left: 5px;
+    padding-right: 8px;
+    margin-left: -6px;
+    transition: all .2s ease 0s;
+    bottom: 2px;
+    border-radius: 0;
+    margin-bottom: -15px
+}
+
+#userbarToggle.userbarShow,
+.res #userbarToggle:hover {
+    background-color: rgba(255, 255, 255, .1)
+}
+
+#userbarToggle.userbarShow {
+    left: -3px!important;
+    padding-right: 20px;
+    font-size: 25px;
+    padding-left: 15px;
+    margin-left: -12px;
+    transition: .2s;
+    top: -15px!important
+}
+
+#userbarToggle.userbarShow:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.livePreview,
+.livePreview .md {
+    text-transform: none
+}
+
+.RESDialogSmall.livePreview {
+    margin: 15px 0
+}
+
+.new-comment .usertext-body {
+    border: none!important
+}
+
+.organic-listing {
+    border: 0
+}
+
+body:not(.search-page) .menuarea {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px!important
+}
+
+.comments-page .menuarea {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 5px!important
+}
+
+.combined-search-page .searchfacets {
+    margin: 0!important;
+    max-width: none!important
+}
+
+.combined-search-page .searchfacets>h4.title {
+    color: #444
+}
+
+.combined-search-page .search-result-group {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%
+}
+
+.combined-search-page .search-result {
+    margin-bottom: 25px;
+    margin-top: 10px;
+    padding: 0 30px 20px;
+    border-bottom: 1px solid #E1E1E1
+}
+
+.combined-search-page .search-result-group .search-result-group-header {
+    color: inherit;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #eee;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1
+}
+
+.combined-search-page .searchpane {
+    background: #444
+}
+
+.combined-search-page #search input[type=text] {
+    max-width: none;
+    color: #fff!important
+}
+
+.combined-search-page .search-icon {
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px
+}
+
+.combined-search-page .search-submit-button {
+    background: 0 0;
+    border: none;
+    float: left;
+    margin-top: -45px;
+    margin-left: -25px
+}
+
+.combined-search-page .search-result-subreddit .search-subscribe-button .add,
+.combined-search-page .search-result-subreddit .search-subscribe-button .remove {
+    width: auto
+}
+
+.combined-search-page .search-result .search-result-body {
+    font-size: 1em;
+    line-height: 1.25em;
+    color: #4F4F4F;
+    padding: 10px 0;
+    width: 800px
+}
+
+.combined-search-page .search-result a,
+.combined-search-page .search-result a>mark {
+    color: inherit
+}
+
+.combined-search-page .search-result .search-result-meta,
+.combined-search-page .search-result .search-score {
+    font-size: 10px;
+    line-height: 2em;
+    color: grey;
+    padding: 8px 0 0;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+#previoussearch label,
+.search-page .menuarea,
+.search-page .searchfacets,
+.search-page a#search_showmore {
+    font-size: 12px;
+    text-transform: uppercase
+}
+
+#moresearchinfo {
+    border: none;
+    background: rgba(0, 0, 0, .9);
+    border-radius: 0 0 10px 10px;
+    line-height: 1.7em;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: left
+}
+
+.search-page div.content {
+    width: 80%;
+    min-width: 1000px;
+    margin: 100px auto 300px
+}
+
+.search-page #noresults {
+    padding-bottom: 20px!important;
+    margin-left: 15px!important
+}
+
+.search-page .side {
+    display: none
+}
+
+.search-page .menuarea {
+    border-bottom: none;
+    padding: 5px 10px;
+    margin: -45px 5px 5px;
+    font-weight: 700;
+    position: absolute;
+    top: 418px
+}
+
+.search-page div#moresearchinfo {
+    background: rgba(0, 0, 0, .85);
+    position: absolute;
+    z-index: 9999;
+    padding-left: 22px;
+    padding-bottom: 20px;
+    color: #fff;
+    padding-right: 20px;
+    border-radius: 0 0 8px 8px;
+    top: 65px
+}
+
+.search-page a#search_showmore {
+    position: absolute;
+    top: 100px;
+    color: #999;
+    font-weight: 700;
+    right: 13px
+}
+
+.search-page .searchfacets {
+    border: none;
+    box-shadow: none;
+    background: #E0E0E0;
+    color: #434343;
+    padding-left: 20px
+}
+
+.searchfacet a {
+    color: #434343!important
+}
+
+#previoussearch label {
+    display: block;
+    margin: 5px 0;
+    position: absolute;
+    top: 95px;
+    font-weight: 700
+}
+
+.search-page #search input[type=submit],
+.search-page #search input[type=submit]:hover,
+.search-page .raisedbox h4,
+.search-summary,
+.searchpane-toggle-hide {
+    display: none
+}
+
+.search-page .searchpane {
+    margin: auto auto -45px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
+    position: relative;
+    top: -85px
+}
+
+.dropdown.lightdrop .selected {
+    text-decoration: none
+}
+
+.search-page #search input[type=text] {
+    background: 0 0;
+    border: none;
+    font-size: 27px;
+    width: 100%!important;
+    position: relative;
+    top: 2px;
+    margin-left: 30px
+}
+
+.tagline .score {
+    font-weight: 700
+}
+
+.comment.noncollapsed .midcol {
+    margin-left: 20px
+}
+
+.res .comment.noncollapsed .midcol {
+    margin-left: 10px
+}
+
+.commentarea .comment a.expand {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4px 4px 0;
+    height: 100%;
+    opacity: .5;
+    box-sizing: border-box;
+    transition: .2s
+}
+
+.commentarea .comment a.expand:hover {
+    opacity: 1;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700
+}
+
+.res .commentarea .comment a.expand:hover {
+    border-radius: 4px 0 0 4px
+}
+
+.commentarea .thing,
+.midcol {
+    position: relative
+}
+
+.comments-page .content .infobar {
+    border: 0;
+    background: #fff;
+    max-width: 300px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 11px;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
+    margin-top: 30px;
+    margin-left: -10px!important;
+    margin-bottom: 15px
+}
+
+.panestack-title a.title-button {
+    position: relative;
+    z-index: 2
+}
+
+.panestack-title a.title-button,
+.panestack-title a.title-button.gold {
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 9px;
+    color: #fff;
+    border: none;
+    border-radius: 3px
+}
+
+.res .comments-page .side {
+    margin: 275px 16px 100px
+}
+
+.comments-page .side {
+    margin: 260px 16px 100px
+}
+
+.res .content .RESBigEditorPop {
+    line-height: inherit;
+    font-size: 11px;
+    box-shadow: none;
+    color: #666;
+    border: none;
+    padding: 0;
+    margin-top: 3px;
+    background-color: transparent;
+    background-image: none;
+    margin-left: -12px
+}
+
+.commentarea .thing,
+.commentarea>.usertext,
+body.comments-page .link {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .08)
+}
+
+.RESSubscriptionButton {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-left: 15px;
+    padding: 5px!important;
+    font-size: 9px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    color: #fff!important;
+    border: 0 solid #CCC!important;
+    border-radius: 2px;
+    transition: .25s ease
+}
+
+body.comments-page div.content {
+    background: 0 0!important
+}
+
+body.comments-page .link {
+    background: #FFF;
+    border: none;
+    border-radius: 5px 5px 0 0
+}
+
+body.comments-page .sitetable {
+    position: relative;
+    z-index: 2
+}
+
+.commentarea>.usertext {
+    background-color: #F8F8F8;
+    border-radius: 0 0 2px 2px;
+    overflow: visible;
+    padding-top: 165px;
+    padding-left: 29px;
+    margin-top: -160px;
+    margin-left: -10px;
+    margin-right: -10px
+}
+
+.res .commentarea>.usertext {
+    position: relative;
+    top: -110px;
+    margin-bottom: -90px;
+    margin-top: -160px;
+    padding-top: 136px;
+    clear: left
+}
+
+.commentarea .panestack-title {
+    margin: 16px 0 -16px 22px;
+    border-bottom: 0
+}
+
+.commentarea span.title {
+    text-transform: uppercase!important;
+    font-weight: 700;
+    font-size: 13px;
+    position: relative;
+    z-index: 1
+}
+
+.commentarea .panestack-title .title {
+    color: #4D5763
+}
+
+.commentarea .menuarea {
+    margin-left: 22px!important;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+    z-index: 1
+}
+
+.commentarea .thing {
+    border-radius: 2px;
+    background-color: #fff;
+    margin: 0 0 8px;
+    padding: 16px 16px 1px
+}
+
+.res .commentarea .thing {
+    padding: 15px 15px 0!important
+}
+
+.commentarea .thing.collapsed {
+    padding: 10px 15px!important
+}
+
+.res .commentarea .entry .flat-list {
+    padding-bottom: 8px
+}
+
+.comment .flat-list li a[onclick*=reply] {
+    font-weight: 700
+}
+
+.commentarea .child .thing {
+    box-shadow: none;
+    padding: 4px;
+    margin-left: 2px!important;
+    margin-top: 15px;
+    border: 1px solid #fff!important
+}
+
+body.comments-page div.content {
+    border: none!important
+}
+
+div.child,
+div.sitetable.nestedlisting {
+    box-shadow: none;
+    z-index: auto
+}
+
+.linkinfo,
+.roundfield,
+.wiki-page .pageactions,
+.wiki-page .wikititle {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .08)
+}
+
+.wiki-page div.content {
+    border: 0;
+    background: 0 0;
+    margin-right: 335px!important
+}
+
+.wiki-page-content .md h1,
+.wiki-page-content .md h6 {
+    text-transform: none!important
+}
+
+.wiki-page .pageactions,
+.wiki-page .wikititle {
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase
+}
+
+.wiki-page .wikititle {
+    padding: 12px 16px 10px;
+    margin: 0;
+    color: #444
+}
+
+.wiki-page .wiki-page-content .md.wiki h4 {
+    padding: 15px 0;
+    font-weight: 700
+}
+
+.wiki-page .pageactions {
+    margin-left: 16px;
+    padding: 8px 16px;
+    border: none
+}
+
+.wiki-page .pageactions .wikiaction {
+    margin: 0;
+    background-color: transparent;
+    border-radius: 0;
+    color: #B3B3B3
+}
+
+.wiki-page .pageactions .wikiaction-current {
+    color: #444;
+    font-weight: 700
+}
+
+.wiki-page .pageactions .wikiaction-current:hover,
+.wiki-page .pageactions .wikiaction:hover {
+    background: 0 0;
+    color: #666;
+    font-weight: 700
+}
+
+.formtabs-content .infobar,
+.wiki-page .wiki-page-content {
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .08)
+}
+
+.wiki-page .wiki-page-content {
+    margin: 16px 0;
+    padding: 16px;
+    border-radius: 2px
+}
+
+.wiki-page .wiki-page-content .wiki>.toc>ul {
+    border: none
+}
+
+.wiki-page .wiki-page-content .wiki.md {
+    color: #4D5763
+}
+
+.wiki-page .wiki-page-content .wiki.md h2 {
+    color: #444
+}
+
+.wiki-page .wiki-page-content .wiki.md p {
+    font-size: 14px;
+    line-height: 1.4285714285714em
+}
+
+.wiki-page .wiki-page-content hr {
+    border-style: solid;
+    border-color: #e5e5e5
+}
+
+.submit-page .submit_text {
+    width: 640px!important
+}
+
+.submit-page .submit_text.enabled {
+    text-transform: none!important
+}
+
+.roundfield,
+.sidecontentbox a.helplink {
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.formtabs-content .infobar {
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    color: #000
+}
+
+#sr-more-link {
+    background-color: #fff!important
+}
+
+.roundfield .usertext-edit,
+.roundfield input[type=number],
+.roundfield input[type=password],
+.roundfield input[type=text],
+.roundfield input[type=url],
+.roundfield textarea,
+.submit-page .markdownEditor-wrapper {
+    width: 100%
+}
+
+.roundfield .title {
+    color: #666
+}
+
+.roundfield {
+    background: #FFF;
+    width: auto;
+    padding: 15px 20px;
+    font-size: 12px;
+    line-height: 1.5em;
+    border-radius: 4px
+}
+
+.roundfield input[type=text] {
+    margin-bottom: 15px
+}
+
+.content.submit .info-notice {
+    font-size: 12px;
+    padding: 9px;
+    background-color: #FFF;
+    border: none;
+    margin: -10px 10px 12px
+}
+
+.submit-page .content .spacer {
+    margin-left: 0
+}
+
+.submit-page .content {
+    width: 700px;
+    margin: 0 auto
+}
+
+.submit-page div.content {
+    margin-top: 20px!important;
+    margin-bottom: 50px!important;
+    background: 0 0!important;
+    border: none!important
+}
+
+.submit-page .tabmenu.formtab .selected a {
+    color: #cecece;
+    background-color: transparent;
+    border: none;
+    font-size: inherit
+}
+
+.submit-page ul.tabmenu.formtab {
+    display: block;
+    padding-left: 10px;
+    font-size: larger;
+    border-radius: 4px
+}
+
+.submit-page .tabmenu li a {
+    background: 0 0;
+    border: none
+}
+
+.submit-page .tabmenu {
+    margin-top: 0
+}
+
+body:not(.submit-page) .tabmenu::after {
+    display: none
+}
+
+.submit-page #newlink.submit.content .btn {
+    height: 42px;
+    line-height: 41px;
+    width: 97%;
+    margin-left: 10px
+}
+
+.md-container {
+    text-align: left
+}
+
+.titlebox {
+    text-align: center
+}
+
+.submit-page .content h1,
+.submit-page .side {
+    display: none!important
+}
+
+.formtabs-content {
+    border-top: 0 solid!important;
+    width: auto;
+    padding: 10px;
+    margin-top: 15px
+}
+
+.comments-page #noresults:after {
+    content: "."
+}
+
+.sidecontentbox .title h1 {
+    color: #555;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline-block
+}
+
+.sidecontentbox a.helplink {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 215px;
+    border: none;
+    border-radius: 4px;
+    color: #fff!important;
+    text-align: center;
+    font-size: 13px;
+    line-height: 30px;
+    transition: .25s ease
+}
+
+div .thing .tagline .author.admin,
+div .thing .tagline .author.admin:before,
+div .thing .tagline .author.moderator,
+div .thing .tagline .author.moderator:before,
+div .thing .tagline .author.submitter,
+div .thing .tagline .author.submitter:before {
+    font-weight: Bold;
+    line-height: 20px;
+    color: #FFF;
+    font-size: 10px;
+    display: inline-block
+}
+
+#srList,
+#srList td a {
+    color: #fff
+}
+
+.sidecontentbox a.helplink:hover {
+    text-decoration: none
+}
+
+.sidecontentbox a.helplink:active {
+    background-color: #ae9df4
+}
+
+div .thing .tagline .author.submitter:before {
+    background: #4169e1;
+    padding: 0 7px 0 10px;
+    border-radius: 20px 0 0 20px;
+    font-size: 10px;
+    content: "OP ";
+    margin-right: 7px
+}
+
+div .thing .tagline .author.submitter {
+    background: #27408b!important;
+    padding: 0 10px 0 0;
+    border-radius: 20px;
+    transition: .3s
+}
+
+div .thing .tagline .author.submitter:hover {
+    background: #4169e1!important;
+    text-decoration: none
+}
+
+div.thing .tagline .author.admin:before,
+div.thing .tagline .author.moderator:before {
+    padding: 0 7px 0 10px;
+    border-radius: 20px 0 0 20px;
+    font-size: 10px;
+    margin-right: 7px
+}
+
+body div .thing .tagline .author.admin,
+body div .thing .tagline .author.moderator {
+    padding: 0 10px 0 0;
+    border-radius: 20px;
+    transition: .3s
+}
+
+div.thing .tagline .author.moderator:before {
+    background: #282!important;
+    content: "Mod "
+}
+
+body div .thing .tagline .author.moderator {
+    background: #1A4B17!important
+}
+
+body div .thing .tagline .author.moderator:hover {
+    background: #282!important;
+    text-decoration: none
+}
+
+.tagline .moderator:after {
+    content: "oderator - speaking officially."
+}
+
+div.thing .tagline .author.admin:before {
+    background-color: #fe506e!important;
+    content: "Admin "
+}
+
+body div .thing .tagline .author.admin {
+    background: #c41959!important
+}
+
+body div .thing .tagline .author.admin:hover {
+    background: #fe506e!important;
+    text-decoration: none
+}
+
+.tagline .admin:after {
+    content: "dmin - speaking officially"
+}
+
+a.author.admin:after,
+a.author.admin:before,
+a.author.moderator:after {
+    content: ""
+}
+
+.link {
+    margin-bottom: 0
+}
+
+body:not(.comments-page) div.content .entry {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 12px
+}
+
+.comments-page .link {
+    padding: 20px 10px
+}
+
+.commentarea .entry.RES-keyNav-activeElement div.noncollapsed,
+.entry.RES-keyNav-activeElement,
+.entry.RES-keyNav-activeElement .usertext-body,
+.entry.RES-keyNav-activeElement div.md {
+    background: 0 0!important
+}
+
+body {
+    background: #e6e6e8
+}
+
+.commentarea .entry.RES-keyNav-activeElement div.noncollapsed,
+.entry.RES-keyNav-activeElement .usertext-body,
+.entry.RES-keyNav-activeElement div.md,
+.new-comment .usertext-body .md {
+    outline: 0!important;
+    border: 0!important
+}
+
+#progressIndicator,
+.NERPageMarker {
+    font-size: 14px!important;
+    font-weight: 700!important;
+    text-align: left!important;
+    background-color: transparent!important;
+    border: none!important;
+    border-radius: 0!important;
+    padding: 10px!important;
+    text-transform: uppercase;
+    margin-left: 20px
+}
+
+#progressIndicator,
+#progressIndicator h2 {
+    text-align: center;
+    text-transform: uppercase
+}
+
+#progressIndicator {
+    font-size: 12px!important;
+    color: #666
+}
+
+#progressIndicator h2 {
+    font-size: 16px!important;
+    font-weight: 700;
+    margin-top: 5px
+}
+
+#sr-header-area {
+    background-color: rgba(0, 0, 0, .5);
+    border: none;
+    color: #fff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: 400;
+    font-size: 9px
+}
+
+#sr-header-area a:hover,
+#srList {
+    font-weight: 700
+}
+
+#srList {
+    position: absolute;
+    top: 24px!important;
+    left: 20px!important;
+    z-index: 9999;
+    border: none;
+    background-color: rgba(0, 0, 0, .85)!important;
+    width: auto;
+    overflow-y: auto;
+    text-transform: uppercase;
+    line-height: 2em;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 6px
+}
+
+#srList tr {
+    border-bottom: none!important
+}
+
+#srList tr:hover {
+    background-color: rgba(80, 80, 80, .6)!important
+}
+
+#sr-header-area .drop-choices.srdrop {
+    margin-top: 3px;
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .85);
+    border: none;
+    line-height: 1.5em;
+    font-weight: 700;
+    border-radius: 0 0 10px 10px;
+    padding: 10px
+}
+
+body.res #sr-header-area .sr-bar a.RESShortcutsCurrentSub {
+    color: #fff!important
+}
+
+#sr-header-area a {
+    font-size: 9px;
+    transition: .2s
+}
+
+.sr-bar a {
+    color: #fff
+}
+
+div.score {
+    font-weight: 500;
+    color: #999
+}
+
+.md h1,
+.md p,
+.md ul {
+    line-height: 20px
+}
+
+h2 {
+    color: #252525;
+    font-size: 18px;
+    font-weight: 400
+}
+
+.side div.score,
+span.totalvotes {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500!important;
+    color: #444;
+    padding: 0 16px
+}
+
+.linkinfo .date,
+.linkinfo .shortlink {
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.linkinfo .score .number {
+    font-size: 14px;
+    text-align: left
+}
+
+.linkinfo .totalvotes {
+    font-size: 100%
+}
+
+.linkinfo {
+    border: none!important;
+    background-color: #fff;
+    top: 400px;
+    font-family: inherit!important;
+    padding: 0;
+    position: absolute;
+    border-radius: 4px;
+    width: 300px
+}
+
+.linkinfo .date {
+    font-size: 11px;
+    color: #666;
+    text-align: left;
+    padding: 14px 16px 0
+}
+
+.linkinfo .shortlink input {
+    box-shadow: none!important;
+    font-family: monospace!important;
+    transition: all .15s ease 0s!important;
+    font-size: 13px;
+    color: #fff;
+    border: none;
+    width: 280px;
+    background: #444;
+    border-radius: 0 0 4px 4px;
+    padding: 10px;
+    text-align: center
+}
+
+.linkinfo .shortlink {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0
+}
+
+.comment .collapsed {
+    padding-left: 24px;
+    padding-bottom: 10px;
+    padding-top: 2px
+}
+
+.comment .midcol,
+.gadget .midcol {
+    width: 20px!important
+}
+
+#header {
+    border: none;
+    height: 250px;
+    transition: .3s;
+    -webkit-transition: .3s
+}
+
+#header span.pagename.redditname a {
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: godown;
+    animation-duration: 1.2s;
+    animation-name: godown
+}
+
+@keyframes godown {
+    0% {
+        opacity: 0;
+        transform: translateY(-60px);
+        -webkit-transform: translateY(-60px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0)
+    }
+}
+
+@-moz-keyframes godown {
+    0% {
+        opacity: 0;
+        transform: translateY(-60px);
+        -webkit-transform: translateY(-60px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes godown {
+    0% {
+        opacity: 0;
+        transform: translateY(-60px);
+        -webkit-transform: translateY(-60px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0)
+    }
+}
+
+@-o-keyframes godown {
+    0% {
+        opacity: 0;
+        transform: translateY(-60px);
+        -webkit-transform: translateY(-60px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0)
+    }
+}
+
+.pagename a {
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    text-indent: -99999px;
+    background-repeat: no-repeat
+}
+
+span.pagename.redditname a:hover {
+    opacity: .8
+}
+
+.pagename {
+    font-size: 0
+}
+
+.morelink .nub,
+.sidebox .spacer,
+.sidebox .spacer a,
+.sidebox.create,
+.subtitle {
+    display: none
+}
+
+.res .titlebox>div:first-of-type,
+.titlebox form.toggle {
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.entry .buttons .may-blank,
+button {
+    font-weight: 700
+}
+
+.fancy-toggle-button .add,
+.fancy-toggle-button .remove {
+    padding: 5px 20px;
+    border-radius: 20px
+}
+
+.RESDashboardToggle,
+.RESDashboardToggle.remove,
+.RESshortcutside,
+.RESshortcutside.remove,
+.fancy-toggle-button .add,
+.fancy-toggle-button .remove,
+.res .fancy-toggle-button .add,
+.res .fancy-toggle-button .remove {
+    font-size: 9px!important;
+    border: none!important;
+    text-transform: uppercase;
+    transition: .2s;
+    background-image: none!important
+}
+
+.RESDashboardToggle,
+.RESDashboardToggle.remove,
+.RESshortcutside,
+.RESshortcutside.remove,
+.res .fancy-toggle-button .add,
+.res .fancy-toggle-button .remove {
+    padding: 5px 8px!important;
+    border-radius: 3px!important
+}
+
+.titlebox h1.redditname {
+    width: 100%;
+    text-align: center
+}
+
+.titlebox .redditname {
+    height: 25px
+}
+
+.res .titlebox .fancy-toggle-button {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 0;
+    width: auto
+}
+
+.titlebox .fancy-toggle-button {
+    margin: 4px auto 0;
+    width: 100%;
+    display: inline-block;
+    transition: .3s
+}
+
+.flat-list {
+    list-style-type: none;
+    display: inline
+}
+
+.morelink .nub,
+.rank-spacer,
+.users-online:before,
+body>.content .link .rank {
+    display: none
+}
+
+.link .tagline {
+    color: #666;
+    font-size: 12px;
+    margin-top: 3px
+}
+
+.entry .buttons li a,
+.entry .buttons li+li {
+    color: #666
+}
+
+.comment .flat-list li a:hover,
+.link .domain a:hover,
+.link .entry .buttons li a:hover {
+    font-weight: 700;
+    text-decoration: none;
+    transition: .2s
+}
+
+button {
+    border-radius: 4px;
+    color: #FFF;
+    cursor: pointer;
+    line-height: 2.16;
+    text-align: center;
+    border: 0;
+    padding: 0 1.06667em;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+    font-size: 12px
+}
+
+body:not(.submit-page) .tabmenu::after {
+    position: absolute;
+    height: 49px;
+    content: '';
+    z-index: -1;
+    left: 0;
+    right: 0;
+    background: #666
+}
+
+#sr-header-area {
+    width: 100%;
+    z-index: 9999
+}
+
+div.content {
+    border-radius: 4px;
+    margin: 50px 335px 10px 16px;
+    border: 1px solid #e1e1e1;
+    background-color: #fff;
+    font-size: 12px
+}
+
+.midcol {
+    margin-left: 0
+}
+
+.midcol-spacer,
+body>.content .link .midcol {
+    width: 40px!important
+}
+
+.midcol-spacer,
+body:not(.comments-page)>.content .link .midcol {
+    margin: 10px 0
+}
+
+.link .title {
+    font-weight: 400
+}
+
+.link .title .domain {
+    color: #999;
+    font-size: 0;
+    font-weight: 400
+}
+
+.link .title .domain::before {
+    font-size: 12px
+}
+
+.link .title .domain a {
+    font-size: 12px;
+    margin-left: 1px;
+    margin-top: -10px
+}
+
+.side {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 0;
+    margin: 150px 16px 100px;
+    width: 300px;
+    background: #fff
+}
+
+#searchexpando {
+    border-radius: 0 0 4px 4px;
+    text-align: center;
+    width: 280px;
+    background: rgba(0, 0, 0, .85);
+    border: none;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+    color: #fff;
+    margin-top: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 2.5em;
+    height: auto
+}
+
+.side #search {
+    top: 265px;
+    position: absolute;
+    margin-right: 25px;
+    z-index: 4;
+    width: 317px
+}
+
+body:not(.search-page) #search input[type=text] {
+    border-radius: 6px;
+    padding: 9px;
+    border: 1px solid #e1e1e1;
+    text-align: center;
+    transition: .3s
+}
+
+body:not(.search-page) #search input[type=text]:hover {
+    border: 1px solid #a0a0a0
+}
+
+body:not(.search-page) #search input[type=text]:focus {
+    border-color: #aaa;
+    text-align: left;
+    outline: 0;
+    padding-left: 6px;
+    animation-name: search;
+    animation-duration: .4s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-play-state: running
+}
+
+@-webkit-keyframes search {
+    0% {
+        padding-left: 125px
+    }
+    8% {
+        padding-left: 107px
+    }
+    15% {
+        padding-left: 89px
+    }
+    30% {
+        padding-left: 71px
+    }
+    50% {
+        padding-left: 53px
+    }
+    60% {
+        padding-left: 18px
+    }
+    100% {
+        padding-left: 6px
+    }
+}
+
+@keyframes search {
+    0% {
+        padding-left: 125px
+    }
+    8% {
+        padding-left: 107px
+    }
+    15% {
+        padding-left: 89px
+    }
+    30% {
+        padding-left: 71px
+    }
+    50% {
+        padding-left: 53px
+    }
+    60% {
+        padding-left: 18px
+    }
+    100% {
+        padding-left: 6px
+    }
+}
+
+.morelink {
+    border: none;
+    letter-spacing: 0;
+    font-size: 14px!important;
+    border-radius: 3.5px;
+    padding: 3px;
+    text-transform: uppercase;
+    transition: .2s
+}
+
+.morelink a,
+.morelink a:hover,
+.morelink a:visited {
+    color: #fff
+}
+
+.disabled .morelink,
+.disabled .morelink:hover {
+    background-image: none!important;
+    top: 314px;
+    position: absolute;
+    width: 300px
+}
+
+.side .submit-link {
+    position: absolute;
+    width: 300px;
+    top: 310px;
+    right: 16px
+}
+
+.side .submit-text {
+    position: absolute;
+    width: 300px;
+    top: 355px;
+    right: 16px
+}
+
+.titlebox {
+    padding: 12px
+}
+
+.side .titlebox .md h3 a {
+    margin-left: 5px
+}
+
+.side md {
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.side #moderation_tools {
+    padding-left: 15px;
+    margin-bottom: 15px
+}
+
+.sidecontentbox {
+    padding: 15px
+}
+
+.infobar {
+    background: #f2f2f2;
+    border: 1px solid #ebebeb
+}
+
+.message-count {
+    position: relative;
+    top: -2px
+}
+
+.commentarea {
+    padding: 0 10px 10px
+}
+
+.users-online {
+    color: #535353
+}
+
+.flair,
+.linkflairlabel {
+    margin-right: .8em;
+    margin-bottom: -.3em
+}
+
+.next-suggestions,
+.nextprev {
+    margin: 10px!important;
+    padding: 10px!important;
+    display: block
+}
+
+.titlebox .users-online:before,
+.titlelebox .word {
+    display: none
+}
+
+.next-suggestions a,
+.nextprev a {
+    font-weight: 400!important
+}
+
+.link .usertext .md {
+    border: 1px solid #e1e1e1
+}
+
+.link .usertext-body .md {
+    border: none!important;
+    background: 0 0!important
+}
+
+.link .score.likes {
+    color: #FF5F3F
+}
+
+.link .score.dislikes {
+    color: #2B9BDB
+}
+
+.score.unvoted {
+    color: #666
+}
+
+div.midcol.dislikes,
+div.midcol.likes,
+div.midcol.unvoted,
+div.reddit-entry {
+    padding: 0 10px
+}
+
+#header-img.default-header:hover,
+#header-img:hover {
+    opacity: .7
+}
+
+.users-online {
+    margin-bottom: 2em
+}
+
+.titlebox .number,
+.titlebox span.subscribers {
+    font-size: 12px;
+    position: relative
+}
+
+.titlebox .users-online,
+.titlebox span.subscribers {
+    color: #999;
+    position: relative;
+    top: 10px
+}
+
+div.leavemoderator {
+    margin-left: 18px;
+    background: 0 0
+}
+
+.titlebox .users-online {
+    font-size: 12px;
+    position: relative;
+    top: 15px
+}
+
+.titlebox .users-online .number {
+    font-style: italic
+}
+
+.titlebox .users-online .number:before {
+    content: ""
+}
+
+.titlebox .number,
+.titlebox .users-online {
+    cursor: text
+}
+
+.side .md .-blocks,
+.side .md .-lists,
+.side .md blockquote,
+.side .md ol,
+.side .md p,
+.side .md pre,
+.side .md table,
+.side .md ul {
+    margin: 15px 0
+}
+
+.titlebox h1.redditname {
+    font-weight: 400
+}
+
+.side .md h1,
+.side .md h2 {
+    font-weight: 700;
+    text-align: center
+}
+
+.side .md h1 {
+    position: relative;
+    margin: 0 20px 20px;
+    padding: 5px 0;
+    font-size: 18px;
+    text-decoration: none
+}
+
+.side .md h2 {
+    position: relative;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    font-size: 13px!important;
+    background: #444;
+    border-radius: 5px 5px 0 0
+}
+
+.side .md h2 a {
+    color: #A4D11B
+}
+
+.side .md h2:after {
+    top: 100%;
+    left: 5%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-width: 7px;
+    margin-left: -7px
+}
+
+.side .md h2+ul {
+    list-style-position: outside;
+    border-radius: 0 0 5px 5px;
+    background: #efefef;
+    border-top: 0;
+    padding: 10px 10px 10px 26px;
+    margin: 0 0 20px
+}
+
+.side .md h2+ul li {
+    margin-bottom: 10px;
+    font-size: 95%
+}
+
+.side .usertext {
+    margin-top: 20px
+}
+
+.RESDashboardToggle,
+.RESshortcutside,
+.fancy-toggle-button .add {
+    background: #80d04b
+}
+
+.RESDashboardToggle:hover,
+.fancy-toggle-button .add:hover,
+body.res .RESshortcutside:hover {
+    background: #A6DE81
+}
+
+.RESDashboardToggle:active,
+.fancy-toggle-button .add:active,
+body.res .RESshortcutside:active {
+    background: #599134
+}
+
+.side .titlebox .md h3 a,
+.side .titlebox .md h4 a {
+    border-radius: 3.5px;
+    padding: 8px 0;
+    border: none;
+    color: #fff;
+    letter-spacing: 0;
+    font-weight: 700;
+    text-align: center;
+    transition: .3s background ease;
+    font-size: 12px!important;
+    width: 276px;
+    margin: 1.5em 0;
+    display: block
+}
+
+.titlebox .bottom {
+    display: none
+}
+
+.sidecontentbox .collapse-button {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    line-height: 10px;
+    text-align: center;
+    font-size: 10px;
+    margin: 1px 8px;
+    background-color: transparent;
+    color: #4169e1;
+    vertical-align: middle;
+    border-radius: 2px;
+    border: 1px solid #4169e1
+}
+
+.sidecontentbox .collapse-button:hover {
+    background-color: transparent;
+    color: #009884;
+    vertical-align: middle;
+    border-radius: 2px;
+    border: 1px solid #27408b
+}
+
+.side .sidecontentbox .content {
+    border: none;
+    padding: 8px 0
+}
+
+.gadget .midcol {
+    width: 38px
+}
+
+.content {
+    margin: 96px 16px 0;
+    padding: 0
+}
+
+.entry .buttons li a,
+.entry .buttons li+li {
+    font-weight: 400
+}
+
+.flair-redflair[title]:hover {
+    background: #E14169
+}
+
+.flair-purpleflair[title]:hover {
+    background: #6941E1
+}
+
+.flair-greenflair[title]:hover {
+    background: green
+}
+
+.flair-orangeflair[title]:hover {
+    background: #E16941
+}
+
+.flair-blueflair[title]:hover {
+    background: #4169e1
+}
+
+.flair-blueflair[title],
+.flair-greenflair[title],
+.flair-orangeflair[title],
+.flair-purpleflair[title],
+.flair-redflair[title] {
+    color: #fff;
+    font-size: 10px;
+    padding: 0 10px 0 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 20px
+}
+
+.flair-blueflair[title]:before,
+.flair-greenflair[title]:before,
+.flair-orangeflair[title]:before,
+.flair-purpleflair[title]:before,
+.flair-redflair[title]:before {
+    font-weight: Bold;
+    display: inline-block;
+    font-size: 10px;
+    padding: 4px 8px;
+    border-radius: 20px 0 0 20px;
+    margin-right: 8px
+}
+
+.flair-redflair[title] {
+    background: #9d2d49
+}
+
+.flair-purpleflair[title] {
+    background: #492d9d
+}
+
+.flair-greenflair[title] {
+    background: #005900
+}
+
+.flair-orangeflair[title] {
+    background: #9d492d
+}
+
+.flair-blueflair[title] {
+    background: #27408b
+}
+
+.flair-redflair[title]:before {
+    background: #E14169
+}
+
+.flair-purpleflair[title]:before {
+    background: #6941E1
+}
+
+.flair-greenflair[title]:before {
+    background: green
+}
+
+.flair-orangeflair[title]:before {
+    background: #E16941
+}
+
+.flair-blueflair[title]:before {
+    background: #4169e1
+}
+
+.titlebox form.toggle {
+    background: 0 0
+}
+
+.titlebox .tagline {
+    text-align: center;
+    max-height: 50px
+}
+
+.side .tagline {
+    color: transparent
+}
+
+.linkflairlabel {
+    background: #4169e1;
+    color: #FFF;
+    font-weight: 700;
+    padding: 2px 10px;
+    border-radius: 20px;
+    max-width: none;
+    border: 0
+}
+
+.linkflair-blue .linkflairlabel,
+.linkflair-green .linkflairlabel,
+.linkflair-orange .linkflairlabel,
+.linkflair-purple .linkflairlabel,
+.linkflair-red .linkflairlabel {
+    color: #fff;
+    font-weight: Bold;
+    border-radius: 20px;
+    padding: 2px 10px;
+    transition: .3s
+}
+
+.linkflair-red .linkflairlabel {
+    background: #fe506e
+}
+
+.linkflair-purple .linkflairlabel {
+    background: #6941E1
+}
+
+.linkflair-orange .linkflairlabel {
+    background: #E16941
+}
+
+.linkflair-green .linkflairlabel {
+    background: #228b22
+}
+
+.linkflair-blue .linkflairlabel {
+    background: #4169e1
+}
+
+.linkflair-red .linkflairlabel:hover {
+    background: #b1384d
+}
+
+.linkflair-purple .linkflairlabel:hover {
+    background: #492d9d
+}
+
+.linkflair-orange .linkflairlabel:hover {
+    background: #9d492d
+}
+
+.linkflair-green .linkflairlabel:hover {
+    background: #176117
+}
+
+.linkflair-blue .linkflairlabel:hover {
+    background: #2d499d
+}
+
+.flairselector.drop-choices.active {
+    border-radius: 8px!important;
+    padding: 20px!important
+}
+
+.flairselector .flairselection {
+    margin-bottom: 17px
+}
+
+.flairselector .customizer {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.side .flairselector {
+    position: fixed;
+    top: 150px!important;
+    left: 50%!important;
+    margin-left: -220px;
+    width: 400px!important;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .64)
+}
+
+.flairselector h2 {
+    margin-bottom: 4px;
+    color: #555!important;
+    text-align: left;
+    text-transform: uppercase!important;
+    font-weight: 700;
+    font-size: 12px!important
+}
+
+.bottommenu,
+.error,
+.flairselector form button,
+.footer .flat-vert .title,
+.footer .flat-vert li a,
+form#image-upload.image-upload {
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.flairselector form button {
+    font-size: 10px
+}
+
+.side .flairselector:before {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .75);
+    content: "";
+    cursor: default;
+    transition: all .25s ease;
+    pointer-events: none
+}
+
+.flairselector.drop-choices.active {
+    visibility: visible!important;
+    background-color: #fff;
+    border: 1px solid #d8d8d8
+}
+
+.flairselector h2 {
+    padding: 5px;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.flairoptionpane {
+    text-align: left
+}
+
+.flairoptionpane ul {
+    visibility: visible!important
+}
+
+.flairoptionpane ul a.title {
+    font-size: 100%!important
+}
+
+.flairselector li {
+    padding: 3px 0;
+    width: 182px
+}
+
+.flairselector li:hover {
+    background-color: #efefef
+}
+
+.flairselector form {
+    border-top: 1px solid #e5e5e5
+}
+
+.flairsample-left {
+    text-align: left!important
+}
+
+.flairselector ul {
+    overflow: visible
+}
+
+.flairselector li.selected {
+    background-color: #e5ebf8;
+    border: none
+}
+
+.login-form-side {
+    border: none;
+    padding: 16px;
+    margin-top: -10px
+}
+
+.login-form-side input[type=password],
+.login-form-side input[type=text] {
+    font-size: 11px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    width: 258px
+}
+
+.login-form-side #remember-me * {
+    vertical-align: middle
+}
+
+.login-form-side .submit {
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px
+}
+
+.thumbnail {
+    border-radius: 5px;
+    margin-right: 15px!important;
+    position: relative;
+    top: 33px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%)
+}
+
+body:not(.comments-page) .thumbnail {
+    margin: 10px 5px 10px 0!important
+}
+
+.thumbnail.default,
+.thumbnail.nsfw,
+.thumbnail.self,
+body .stickied .thumbnail.self {
+    background-repeat: no-repeat!important;
+    padding: 10px 0;
+    border-radius: 15px
+}
+
+.stickied a.title:link,
+.stickied a.title:visited,
+body:not(.comments-page) .stickied .entry .buttons li a,
+body:not(.comments-page) .stickied .entry .buttons li+li,
+body:not(.comments-page) .stickied .link .tagline,
+body:not(.comments-page) .stickied .tagline {
+    color: #2B8B27!important
+}
+
+.over18 a.title:link,
+.over18 a.title:visited,
+body:not(.comments-page) .over18 .entry .buttons li a,
+body:not(.comments-page) .over18 .entry .buttons li+li,
+body:not(.comments-page) .over18 .link .tagline,
+body:not(.comments-page) .over18 .tagline {
+    color: #D10023!important
+}
+
+.res #RESShortcutsEditContainer,
+.res #sr-more-link {
+    background: 0 0
+}
+
+#sr-more-link {
+    position: absolute;
+    top: -3px
+}
+
+#RESShortcutsAdd,
+#RESShortcutsLeft,
+#RESShortcutsRight,
+#RESShortcutsSort,
+#RESShortcutsTrash {
+    height: 25px;
+    line-height: 25px!important;
+    margin-right: 4px;
+    background: 0 0!important;
+    color: #fff!important
+}
+
+.link .flat-list {
+    display: block;
+    padding: 1px 0;
+    margin-top: 3px
+}
+
+li.searchfacet {
+    width: 20em
+}
+
+.error {
+    font-size: 12px
+}
+
+.pretty-form {
+    font-size: larger;
+    margin-left: 25px
+}
+
+#preview-table>table {
+    border-width: .2em;
+    border-style: dashed;
+    border-color: #D3D3D3;
+    padding: 5px;
+    margin: 5px 5px 5px 25px;
+    width: 900px
+}
+
+form#image-upload.image-upload {
+    margin-left: 25px;
+    padding: 9px;
+    line-height: 24px;
+    font-size: 10px;
+    margin-bottom: 20px;
+    color: #666
+}
+
+.debuginfo,
+.footer-parent {
+    background-color: #222
+}
+
+.footer-parent {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 300px
+}
+
+.footer .col {
+    margin: 10px 0 30px
+}
+
+.footer {
+    border: 0 solid
+}
+
+.bottommenu,
+.col {
+    border: none!important
+}
+
+.footer .flat-vert li a {
+    font-size: 11px;
+    color: #999!important
+}
+
+.footer .flat-vert li a:hover {
+    text-decoration: none!important;
+    color: #fff!important
+}
+
+.footer .flat-vert .title {
+    font-size: 16px;
+    transition: color .25s ease, background-color .25s ease;
+    color: #fff
+}
+
+.bottommenu {
+    font-size: 10px;
+    color: #FFF!important
+}
+
+.bottommenu a {
+    text-decoration: none;
+    color: #999
+}
+
+#mail.havemail:before {
+    position: fixed;
+    bottom: 24px;
+    z-index: 100;
+    padding: 45px 0 10px;
+    background-color: rgba(0, 0, 0, .85);
+    border-radius: 6px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .5);
+    color: #fff;
+    width: 210px;
+    height: 15px;
+    left: 0;
+    right: 0;
+    content: "YOU HAVE NEW MESSAGES";
+    text-indent: 30px;
+    font-size: 11px;
+    line-height: 1;
+    -webkit-transform: translateY(112px);
+    transform: translateY(112px);
+    transition: background-color .25s ease, box-shadow .25s ease;
+    background-image: url(%%havemail%%);
+    background-position: 85px 8px;
+    margin: 0 auto;
+    background-size: 32px;
+    font-weight: 700;
+    background-repeat: no-repeat;
+    animation-name: toast;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    -webkit-animation-name: toast;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease
+}
+
+#mail.havemail:hover:before {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused
+}
+
+@-webkit-keyframes toast {
+    0%,
+    100%,
+    20% {
+        transform: translateY(76px);
+        -webkit-transform: translateY(76px);
+        opacity: 0
+    }
+    25% {
+        transform: translateY(-8px);
+        -webkit-transform: translateY(-8px);
+        opacity: .8
+    }
+    27%,
+    92% {
+        transform: translateY(00px);
+        -webkit-transform: translateY(00px);
+        opacity: .8
+    }
+    97% {
+        transform: translateY(16px);
+        -webkit-transform: translateY(16px);
+        opacity: .8
+    }
+}
+
+@-o-keyframes toast {
+    0%,
+    100%,
+    20% {
+        transform: translateY(76px);
+        -webkit-transform: translateY(76px);
+        opacity: 0
+    }
+    25% {
+        transform: translateY(-8px);
+        -webkit-transform: translateY(-8px);
+        opacity: .8
+    }
+    27%,
+    92% {
+        transform: translateY(00px);
+        -webkit-transform: translateY(00px);
+        opacity: .8
+    }
+    97% {
+        transform: translateY(16px);
+        -webkit-transform: translateY(16px);
+        opacity: .8
+    }
+}
+
+@-moz-keyframes toast {
+    0%,
+    100%,
+    20% {
+        transform: translateY(76px);
+        -webkit-transform: translateY(76px);
+        opacity: 0
+    }
+    25% {
+        transform: translateY(-8px);
+        -webkit-transform: translateY(-8px);
+        opacity: .8
+    }
+    27%,
+    92% {
+        transform: translateY(00px);
+        -webkit-transform: translateY(00px);
+        opacity: .8
+    }
+    97% {
+        transform: translateY(16px);
+        -webkit-transform: translateY(16px);
+        opacity: .8
+    }
+}
+
+@keyframes toast {
+    0%,
+    100%,
+    20% {
+        transform: translateY(76px);
+        -webkit-transform: translateY(76px);
+        opacity: 0
+    }
+    25% {
+        transform: translateY(-8px);
+        -webkit-transform: translateY(-8px);
+        opacity: .8
+    }
+    27%,
+    92% {
+        transform: translateY(00px);
+        -webkit-transform: translateY(00px);
+        opacity: .8
+    }
+    97% {
+        transform: translateY(16px);
+        -webkit-transform: translateY(16px);
+        opacity: .8
+    }
+}
+
+.RESDashboardToggle.remove,
+.RESSubscriptionButton,
+.RESshortcutside.remove,
+.commentarea .comment a.expand:hover,
+.fancy-toggle-button .remove,
+.panestack-title a.title-button,
+.panestack-title a.title-button.gold,
+.side .titlebox .md h4 a,
+.sidecontentbox a.helplink,
+button {
+    background: #4169e1
+}
+
+#progressIndicator a#NERStaticLink,
+.comment .flat-list li a:hover,
+.comment .flat-list li a[onclick*=reply],
+.commentNavSortType:hover,
+.commentarea .menuarea .toggle a:hover,
+.commentarea span.score,
+.deepthread a,
+.deepthread::after,
+.entry .buttons .may-blank,
+.error,
+.linefield .title,
+.link .domain a:hover,
+.link .entry .buttons li a:hover,
+.loadFlat:hover,
+.submit-page .roundfield a,
+.thing .title {
+    color: #4169e1
+}
+
+#img-name:focus,
+.flairlist .flair-jump input[type=text]:focus,
+.roundfield input[type=text]:focus,
+.roundfield input[type=url]:focus,
+.roundfield textarea:focus,
+.usertext-edit textarea:focus {
+    border-color: #4169e1
+}
+
+.RESDashboardToggle.remove:hover,
+.comments-page .RESSubscriptionButton:hover,
+.fancy-toggle-button .remove:hover,
+.panestack-title a.title-button.gold:hover,
+.panestack-title a.title-button:hover,
+.side .titlebox .md h4 a:hover,
+.sidecontentbox a.helplink:hover,
+body.res .side .RESshortcutside.remove:hover,
+button:hover {
+    background: #6687e7
+}
+
+.RESDashboardToggle.remove:active,
+.RESshortcutside.remove:active,
+.comments-page .RESSubscriptionButton:active,
+.fancy-toggle-button .remove:active,
+.panestack-title a.title-button.gold:active,
+.panestack-title a.title-button:active,
+.side .titlebox .md h4 a:active,
+.sidecontentbox a.helplink:active,
+button:active {
+    background: #27408b
+}
+
+.morelink,
+.side .titlebox .md h3 a,
+.tabmenu,
+.thing .md table thead tr th,
+.wiki-page-content .md table thead tr th {
+    background: #444
+}
+
+.morelink:hover,
+.side .titlebox .md h3 a:hover {
+    background: #666
+}
+
+.morelink:active,
+.side .titlebox .md h3 a:active {
+    background: #222
+}
+
+#siteTable .thing .md blockquote,
+#siteTable .thing .md ol,
+#siteTable .thing .md table,
+#siteTable .thing .md ul,
+.commentarea .md blockquote,
+.commentarea .md ul,
+.commentarea .thing .md ol,
+.commentarea .thing .md table,
+.wiki-page-content .md blockquote {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 10px 10px
+}
+
+#siteTable .thing .md blockquote,
+.commentarea .md blockquote,
+.wiki-page-content .md blockquote {
+    padding: 10px;
+    border-left: solid 2px #666;
+    background-color: #f2f2f2;
+    color: #2f2f2f;
+    line-height: 20px;
+    font-size: 14px
+}
+
+#siteTable .thing .md ol,
+#siteTable .thing .md ul,
+.commentarea .md ul,
+.commentarea .thing .md ol {
+    border-right: solid 1px #eaeaea;
+    border-left: solid 1px #eaeaea;
+    border-top: solid 1px #eaeaea;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 0
+}
+
+#siteTable .thing .md ol li,
+#siteTable .thing .md ul li,
+.commentarea .md ul li,
+.commentarea .thing .md ol li {
+    border-bottom: solid 1px #eaeaea;
+    background-color: #f8f8f8;
+    padding: 5px
+}
+
+#siteTable .thing .md ol li:nth-child(odd),
+#siteTable .thing .md ul li:nth-child(odd),
+.commentarea .md ul:nth-child(odd),
+.commentarea .thing .md ol li:nth-child(odd) {
+    background-color: #f2f2f2
+}
+
+#siteTable .thing .md ul,
+.commentarea .md ul {
+    list-style: none
+}
+
+#siteTable .thing .md ol,
+.commentarea .thing .md ol {
+    list-style-position: inside
+}
+
+#siteTable .thing .md table thead tr th,
+.commentarea .thing .md table thead tr th {
+    font-weight: 400;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    border: none
+}
+
+#siteTable .thing .md table tbody tr,
+.commentarea .thing .md table thead tr th {
+    border-bottom: solid 1px #eaeaea
+}
+
+#siteTable .thing .md table tbody tr td,
+.commentarea .thing .md table tbody tr td {
+    padding: 10px 20px;
+    border: none
+}
+
+html[lang=dm] .linkinfo .shortlink input {
+    background: #444
+}
+
+html[lang=dm] #siteTable .thing .md blockquote,
+html[lang=dm] .commentarea .md blockquote,
+html[lang=dm] .wiki-page-content .md blockquote {
+    padding: 10px;
+    border-left: 2px solid #888;
+    background-color: #2f2f2f;
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px
+}
+
+html[lang=dm] #siteTable .thing .md table thead tr th,
+html[lang=dm] .wiki-page-content .md table thead tr th {
+    background: #333
+}
+
+html[lang=dm] #siteTable .thing .md table tbody tr,
+html[lang=dm] .commentarea .thing .md table tbody tr,
+html[lang=dm] .wiki-page-content .md table tbody tr {
+    border-bottom: 1px solid #999
+}
+
+html[lang=dm] .md hr {
+    color: #888
+}
+
+html[lang=dm] #siteTable .thing .md ol li:nth-child(odd),
+html[lang=dm] #siteTable .thing .md ul li:nth-child(odd),
+html[lang=dm] .commentarea .md ul li:nth-child(odd),
+html[lang=dm] .commentarea .thing .md ol li:nth-child(odd),
+html[lang=dm] .wiki-page-content .md ol li:nth-child(odd) {
+    background-color: #333
+}
+
+html[lang=dm] #siteTable .thing .md ol li,
+html[lang=dm] #siteTable .thing .md ul li,
+html[lang=dm] .commentarea .md ul li,
+html[lang=dm] .commentarea .thing .md ol li,
+html[lang=dm] .wiki-page-content .md ol li {
+    border-bottom: solid 1px #555;
+    background-color: #222;
+    padding: 5px
+}
+
+html[lang=dm] #siteTable .thing .md ol,
+html[lang=dm] #siteTable .thing .md ul,
+html[lang=dm] .commentarea .md ul,
+html[lang=dm] .commentarea .thing .md ol,
+html[lang=dm] .wiki-page-content .md ol {
+    border-right: solid 1px #555;
+    border-left: solid 1px #555;
+    border-top: solid 1px #555;
+    line-height: 20px;
+    font-size: 14px
+}
+
+html[lang=dm] .content .entry .buttons li.reported-stamp,
+html[lang=dm] body .content .stickied .entry .buttons li.reported-stamp {
+    background: #222!important;
+    color: #d1d1d1!important
+}
+
+html[lang=dm] .pretty-button.positive {
+    color: #7DDC1F!important
+}
+
+html[lang=dm] .pretty-button.neutral {
+    color: #ccc
+}
+
+html[lang=dm] .pretty-button.negative {
+    color: #FE728B!important
+}
+
+html[lang=dm] .nsfw-stamp {
+    background: #FE728B
+}
+
+html[lang=dm] .combined-search-page .search-result .search-comments,
+html[lang=dm] .combined-search-page .search-result .search-result-body,
+html[lang=dm] .combined-search-page .search-result .search-result-footer .search-link,
+html[lang=dm] .combined-search-page .search-result .search-result-header .search-title,
+html[lang=dm] .combined-search-page .search-result .search-result-meta,
+html[lang=dm] .combined-search-page .search-result .search-score,
+html[lang=dm] .combined-search-page .search-result-group .search-header-label,
+html[lang=dm] .combined-search-page .search-result-group .search-result-group-header {
+    color: #fff
+}
+
+html[lang=dm] .combined-search-page .search-result .search-expando.collapsed::before {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #444 100%)
+}
+
+html[lang=dm] .combined-search-page .search-result .search-expando-button {
+    color: #A4D11B
+}
+
+html[lang=dm] .combined-search-page .search-result {
+    border-bottom: 1px solid #666
+}
+
+html[lang=dm] .combined-search-page .search-result-group .search-result-group-header {
+    background: #222;
+    border-bottom: 1px solid #666;
+    border-top: 1px solid #666
+}
+
+html[lang=dm] .stickied a.title:link,
+html[lang=dm] body:not(.comments-page) .stickied .entry .buttons li a,
+html[lang=dm] body:not(.comments-page) .stickied .entry .buttons li+li,
+html[lang=dm] body:not(.comments-page) .stickied .link .tagline,
+html[lang=dm] body:not(.comments-page) .stickied .md p,
+html[lang=dm] body:not(.comments-page) .stickied .tagline,
+html[lang=dm] body:not(.comments-page) .stickied a.title:visited {
+    color: #7ddc1f!important
+}
+
+html[lang=dm] .over18 a.title:link,
+html[lang=dm] .over18 a.title:visited,
+html[lang=dm] body:not(.comments-page) .over18 .entry .buttons li a,
+html[lang=dm] body:not(.comments-page) .over18 .entry .buttons li+li,
+html[lang=dm] body:not(.comments-page) .over18 .link .tagline,
+html[lang=dm] body:not(.comments-page) .over18 .md p,
+html[lang=dm] body:not(.comments-page) .over18 .tagline {
+    color: #fe728b!important
+}
+
+html[lang=dm] body {
+    background: #222
+}
+
+html[lang=dm] div.content {
+    background-color: #333;
+    border: none
+}
+
+html[lang=dm] .entry .buttons li a {
+    color: #ccc!important
+}
+
+html[lang=dm] .commentNavSortType,
+html[lang=dm] .commentarea .menuarea .toggle a,
+html[lang=dm] .dropdown.lightdrop .selected,
+html[lang=dm] .thing .title:visited {
+    color: #ababab!important
+}
+
+html[lang=dm] .thing .title {
+    color: #fff!important
+}
+
+html[lang=dm] input[name=uh]~a:after {
+    display: none
+}
+
+html[lang=dm] a.comments::after {
+    color: #ccc!important
+}
+
+html[lang=dm] .flair {
+    border: none
+}
+
+html[lang=dm] .side {
+    border: #4c4c4c;
+    background: #333
+}
+
+html[lang=dm] .titlebox form.toggle,
+html[lang=dm] .toggle .option.active,
+html[lang=dm] div.leavemoderator {
+    color: #ccc
+}
+
+html[lang=dm] .side .usertext-body {
+    background-image: none;
+    padding: 0
+}
+
+html[lang=dm] .icon-menu a {
+    color: #fff
+}
+
+html[lang=dm] .sidecontentbox .title h1 {
+    color: #fff;
+    font-weight: 700
+}
+
+html[lang=dm] .side .titlebox .md h3 a {
+    background: #444
+}
+
+html[lang=dm] .side .titlebox .md h3 a:hover {
+    background: #666
+}
+
+html[lang=dm] .side .titlebox .md h3 a:active {
+    background: #222
+}
+
+html[lang=dm] .titlebox .users-online,
+html[lang=dm] .titlebox span.subscribers {
+    color: #fff!important
+}
+
+html[lang=dm] #sr-header-area a,
+html[lang=dm] .sidecontentbox .collapse-button,
+html[lang=dm] h2 {
+    color: #fff
+}
+
+html[lang=dm] .sidecontentbox .collapse-button {
+    border: 1px solid #fff
+}
+
+html[lang=dm] .commentarea span.score,
+html[lang=dm] .side .md h4 a,
+html[lang=dm] body.res #sr-header-area .sr-bar a.RESShortcutsCurrentSub {
+    color: #fff!important
+}
+
+html[lang=dm] .side .md h4 {
+    background: #323232
+}
+
+html[lang=dm] .md hr,
+html[lang=dm] body:not(.comments-page) div.content .entry {
+    border-bottom: 1px solid #666
+}
+
+html[lang=dm] .content .md a {
+    color: #a4d11b!important
+}
+
+html[lang=dm] .titlebox a {
+    color: #a4d11b
+}
+
+html[lang=dm] .link.promotedlink.promoted {
+    background-color: #565656
+}
+
+html[lang=dm] .sidecontentbox .more a,
+html[lang=dm] span.score {
+    color: #ccc!important
+}
+
+html[lang=dm] #progressIndicator,
+html[lang=dm] .commentarea .panestack-title .title,
+html[lang=dm] .commentingAs,
+html[lang=dm] .linkinfo .date,
+html[lang=dm] .linkinfo .shortlink,
+html[lang=dm] .md,
+html[lang=dm] div.score,
+html[lang=dm] span.totalvotes {
+    color: #fff!important
+}
+
+html[lang=dm] body.comments-page .link {
+    background: #323232
+}
+
+html[lang=dm] .commentarea>.usertext {
+    background-color: #292929
+}
+
+html[lang=dm] .commentarea .child .thing.comment,
+html[lang=dm] .commentarea .child .thing.comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment .comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment .comment .comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment .comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+html[lang=dm] .commentarea .thing {
+    border: 1px solid #333!important
+}
+
+html[lang=dm] .commentarea .child .thing.comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment .comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment .comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background: #222!important
+}
+
+html[lang=dm] .commentarea .child .thing.comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment .comment .comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment .comment,
+html[lang=dm] .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+html[lang=dm] .commentarea .thing {
+    background: #292929!important
+}
+
+html[lang=dm] button {
+    background-color: #999;
+    color: #000
+}
+
+html[lang=dm] #RESShortcutsAdd,
+html[lang=dm] #RESShortcutsLeft,
+html[lang=dm] #RESShortcutsRight,
+html[lang=dm] #RESShortcutsSort,
+html[lang=dm] #RESShortcutsTrash,
+html[lang=dm] .tagline a {
+    color: #fff
+}
+
+html[lang=dm] .shortlink .input {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #666!important
+}
+
+html[lang=dm] #preview-table>table>tbody>tr>th,
+html[lang=dm] #previoussearch label,
+html[lang=dm] #progressIndicator a#NERStaticLink,
+html[lang=dm] .comment .flat-list li a:hover,
+html[lang=dm] .comment .flat-list li a[onclick*=reply],
+html[lang=dm] .commentNavSortType:hover,
+html[lang=dm] .commentarea .menuarea .toggle a:hover,
+html[lang=dm] .deepthread a,
+html[lang=dm] .deepthread::after,
+html[lang=dm] .dropdown.srdrop span.selected.title,
+html[lang=dm] .entry .buttons .may-blank,
+html[lang=dm] .error,
+html[lang=dm] .formtabs-content .infobar,
+html[lang=dm] .generic-table,
+html[lang=dm] .link .domain a:hover,
+html[lang=dm] .link .entry .buttons li a:hover,
+html[lang=dm] .link .tagline,
+html[lang=dm] .loadFlat:hover,
+html[lang=dm] .md del,
+html[lang=dm] .md pre code,
+html[lang=dm] .menuarea,
+html[lang=dm] .pretty-form,
+html[lang=dm] .roundfield,
+html[lang=dm] .search-page .searchfacets,
+html[lang=dm] .searchfacet a,
+html[lang=dm] .side .md ol,
+html[lang=dm] .side .md p,
+html[lang=dm] .side .titlebox .md h1,
+html[lang=dm] .submit-page .title,
+html[lang=dm] .titlebox h1 a,
+html[lang=dm] .wiki-page .pageactions .wikiaction-current,
+html[lang=dm] .wiki-page .wiki-page-content .wiki.md,
+html[lang=dm] .wiki-page .wiki-page-content .wiki.md h2,
+html[lang=dm] .wiki-page .wikititle,
+html[lang=dm] .wiki-page-content .md h1,
+html[lang=dm] form#image-upload.image-upload {
+    color: #fff!important
+}
+
+html[lang=dm] .search-page .searchfacets {
+    background: #555
+}
+
+html[lang=dm] .formtabs-content .infobar,
+html[lang=dm] .roundfield {
+    background-color: #333
+}
+
+html[lang=dm] .md code {
+    background-color: #222;
+    border: 1px solid #666!important
+}
+
+html[lang=dm] .md pre {
+    padding: 0;
+    background-color: transparent!important;
+    border: none
+}
+
+html[lang=dm] .wiki-page div.content {
+    background-color: transparent;
+    border: none
+}
+
+html[lang=dm] .livePreview .md p {
+    color: #000
+}
+
+html[lang=dm] .wiki-page .infobar {
+    background: 0 0;
+    border: none
+}
+
+html[lang=dm] .content.submit .info-notice,
+html[lang=dm] .wiki-page .pageactions,
+html[lang=dm] .wiki-page .wiki-page-content,
+html[lang=dm] .wiki-page .wikititle {
+    background-color: #444!important
+}
+
+html[lang=dm] body:not(.search-page) #search input[type=text] {
+    background: #222!important;
+    border: 1px solid #444;
+    color: #fff
+}
+
+html[lang=dm] .submit-page .content a {
+    color: #999!important
+}
+
+html[lang=dm] .md table,
+html[lang=dm] .md ul {
+    color: #fff!important
+}
+
+html[lang=dm] .gold-accent.comment-visits-box,
+html[lang=dm] .side .titlebox {
+    color: #fff
+}
+
+html[lang=dm]::-moz-selection {
+    background: #666;
+    color: #fff
+}
+
+html[lang=dm] .linkinfo {
+    background-color: #303030
+}
+
+html[lang=dm] .debuginfo,
+html[lang=dm] .footer-parent {
+    background: #111
+}
+
+html[lang=dm] ul#image-preview-list li {
+    background: #333;
+    border: none;
+    color: #fff
+}
+
+html[lang=dm] .flairselector .tagline a,
+html[lang=dm] .flairselector h2 {
+    color: #000!important
+}
+
+html[lang=dm] .wiki-page .wiki-page-content .md.wiki h4 {
+    color: #fff!important
+}
+
+html[lang=dm] .comments-page .content .infobar {
+    background: #444;
+    color: #fff
+}
+
+html[lang=dm] .commentarea textarea:not(:focus):not(:hover) {
+    color: transparent;
+    background-color: #444!important;
+    text-shadow: 0 0 12px #000
+}
+
+html[lang=dm] .commentarea textarea:hover,
+html[lang=dm] .roundfield input[type=text]:hover,
+html[lang=dm] .roundfield input[type=url]:hover,
+html[lang=dm] .roundfield textarea:hover {
+    border: 1px solid #9f9f9f
+}
+
+html[lang=dm] .roundfield input[type=text],
+html[lang=dm] .roundfield input[type=url],
+html[lang=dm] textarea {
+    background-color: #222!important;
+    color: #fff!important;
+    transition: .3s;
+    border: 1px solid #666
+}
+
+html[lang=dm] .roundfield input[type=text]:focus,
+html[lang=dm] .roundfield input[type=url]:focus,
+html[lang=dm] .roundfield textarea:focus,
+html[lang=dm] .usertext-edit textarea:focus {
+    border: 1px solid #666;
+    transition: .1s ease;
+    border-bottom: 3px solid #999!important
+}
+
+html[lang=dm] .toc ul {
+    background: 0 0
+}
+
+.deepthread::after,
+html[lang=dm] .deepthread a {
+    color: #fff
+}
+
+html[lang=dm] .commentarea .comment a.expand:hover {
+    background: #999;
+    color: #333
+}
+
+html[lang=dm] .markdownEditor .edit-btn:not(.btn-macro) {
+    background-color: #ccc!important;
+    border: none!important;
+    border-radius: 4px!important
+}
+
+html[lang=dm] .expando-button,
+html[lang=dm] .expando-button.expanded,
+html[lang=dm] .expando-button.expanded:hover,
+html[lang=dm] .expando-button:hover {
+    border-radius: 20px!important;
+    background-color: #999!important
+}
+
+html[lang=dm] #REScommentSubToggle {
+    background: #ccc!important;
+    color: #000!important
+}
+
+html[lang=dm] .tabmenu {
+    background: #333
+}
+
+html[lang=dm] .side .md h2+ul {
+    background: #222
+}
+
+html[lang=dm] .side .sidecontentbox a {
+    color: #ccc
+}
+
+.res #RESShortcutsViewport {
+    margin-right: 70px
+}
+
+#header {
+    background: url(%%banner%%) no-repeat;
+    background-position-x: center!important;
+    background-position: center!important
+}
+
+.flair {
+    background: url(%%all-with-bloodborne%%) -9999px no-repeat;
+    border: 0;
+    padding: 0;
+    max-width: 166px;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.flair:not(:empty) {
+    padding-left: 4em;
+    line-height: 1.7
+}
+
+html[lang=dm] .flair {
+    color: #e3e3e3
+}
+
+span[class*=flair-card] {
+    min-width: 37px;
+    height: 16px;
+    max-width: 126px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.flair-CounterplayShrunk {
+    width: 166px;
+    height: 37px;
+    background-position: 0 0!important
+}
+
+.flair-card-1-0 {
+    background-position: -166px 0
+}
+
+.flair-card-1-1 {
+    background-position: -166px -16px
+}
+
+.flair-card-1-2 {
+    background-position: -166px -32px
+}
+
+.flair-card-1-3 {
+    background-position: -166px -48px
+}
+
+.flair-card-1-4 {
+    background-position: -166px -64px
+}
+
+.flair-card-1-5 {
+    background-position: -166px -80px
+}
+
+.flair-card-1-6 {
+    background-position: -166px -96px
+}
+
+.flair-card-1-7 {
+    background-position: -166px -112px
+}
+
+.flair-card-1-8 {
+    background-position: -166px -128px
+}
+
+.flair-card-1-9 {
+    background-position: -166px -144px
+}
+
+.flair-card-1-10 {
+    background-position: -166px -160px
+}
+
+.flair-card-1-11 {
+    background-position: -166px -176px
+}
+
+.flair-card-1-12 {
+    background-position: -166px -192px
+}
+
+.flair-card-1-13 {
+    background-position: -166px -208px
+}
+
+.flair-card-1-14 {
+    background-position: -166px -224px
+}
+
+.flair-card-1-15 {
+    background-position: -166px -240px
+}
+
+.flair-card-1-16 {
+    background-position: -166px -256px
+}
+
+.flair-card-1-17 {
+    background-position: -166px -272px
+}
+
+.flair-card-1-18 {
+    background-position: -166px -288px
+}
+
+.flair-card-1-19 {
+    background-position: -166px -304px
+}
+
+.flair-card-1-20 {
+    background-position: -166px -320px
+}
+
+.flair-card-1-21 {
+    background-position: -166px -336px
+}
+
+.flair-card-1-22 {
+    background-position: -166px -352px
+}
+
+.flair-card-1-23 {
+    background-position: -166px -368px
+}
+
+.flair-card-1-24 {
+    background-position: -166px -384px
+}
+
+.flair-card-1-25 {
+    background-position: -166px -400px
+}
+
+.flair-card-1-26 {
+    background-position: -166px -416px
+}
+
+.flair-card-1-27 {
+    background-position: -166px -432px
+}
+
+.flair-card-1-28 {
+    background-position: -166px -448px
+}
+
+.flair-card-1-29 {
+    background-position: -166px -464px
+}
+
+.flair-card-1-30 {
+    background-position: -166px -480px
+}
+
+.flair-card-2-0 {
+    background-position: -332px 0
+}
+
+.flair-card-2-1 {
+    background-position: -332px -16px
+}
+
+.flair-card-2-2 {
+    background-position: -332px -32px
+}
+
+.flair-card-2-3 {
+    background-position: -332px -48px
+}
+
+.flair-card-2-4 {
+    background-position: -332px -64px
+}
+
+.flair-card-2-5 {
+    background-position: -332px -80px
+}
+
+.flair-card-2-6 {
+    background-position: -332px -96px
+}
+
+.flair-card-2-7 {
+    background-position: -332px -112px
+}
+
+.flair-card-2-8 {
+    background-position: -332px -128px
+}
+
+.flair-card-2-9 {
+    background-position: -332px -144px
+}
+
+.flair-card-2-10 {
+    background-position: -332px -160px
+}
+
+.flair-card-2-11 {
+    background-position: -332px -176px
+}
+
+.flair-card-2-12 {
+    background-position: -332px -192px
+}
+
+.flair-card-2-13 {
+    background-position: -332px -208px
+}
+
+.flair-card-2-14 {
+    background-position: -332px -224px
+}
+
+.flair-card-2-15 {
+    background-position: -332px -240px
+}
+
+.flair-card-2-16 {
+    background-position: -332px -256px
+}
+
+.flair-card-2-17 {
+    background-position: -332px -272px
+}
+
+.flair-card-2-18 {
+    background-position: -332px -288px
+}
+
+.flair-card-2-19 {
+    background-position: -332px -304px
+}
+
+.flair-card-2-20 {
+    background-position: -332px -320px
+}
+
+.flair-card-2-21 {
+    background-position: -332px -336px
+}
+
+.flair-card-2-22 {
+    background-position: -332px -352px
+}
+
+.flair-card-2-23 {
+    background-position: -332px -368px
+}
+
+.flair-card-2-24 {
+    background-position: -332px -384px
+}
+
+.flair-card-2-25 {
+    background-position: -332px -400px
+}
+
+.flair-card-2-26 {
+    background-position: -332px -416px
+}
+
+.flair-card-2-27 {
+    background-position: -332px -432px
+}
+
+.flair-card-2-28 {
+    background-position: -332px -448px
+}
+
+.flair-card-2-29 {
+    background-position: -332px -464px
+}
+
+.flair-card-2-30 {
+    background-position: -332px -480px
+}
+
+.flair-card-3-0 {
+    background-position: -498px 0
+}
+
+.flair-card-3-1 {
+    background-position: -498px -16px
+}
+
+.flair-card-3-2 {
+    background-position: -498px -32px
+}
+
+.flair-card-3-3 {
+    background-position: -498px -48px
+}
+
+.flair-card-3-4 {
+    background-position: -498px -64px
+}
+
+.flair-card-3-5 {
+    background-position: -498px -80px
+}
+
+.flair-card-3-6 {
+    background-position: -498px -96px
+}
+
+.flair-card-3-7 {
+    background-position: -498px -112px
+}
+
+.flair-card-3-8 {
+    background-position: -498px -128px
+}
+
+.flair-card-3-9 {
+    background-position: -498px -144px
+}
+
+.flair-card-3-10 {
+    background-position: -498px -160px
+}
+
+.flair-card-3-11 {
+    background-position: -498px -176px
+}
+
+.flair-card-3-12 {
+    background-position: -498px -192px
+}
+
+.flair-card-3-13 {
+    background-position: -498px -208px
+}
+
+.flair-card-3-14 {
+    background-position: -498px -224px
+}
+
+.flair-card-3-15 {
+    background-position: -498px -240px
+}
+
+.flair-card-3-16 {
+    background-position: -498px -256px
+}
+
+.flair-card-3-17 {
+    background-position: -498px -272px
+}
+
+.flair-card-3-18 {
+    background-position: -498px -288px
+}
+
+.flair-card-3-19 {
+    background-position: -498px -304px
+}
+
+.flair-card-3-20 {
+    background-position: -498px -320px
+}
+
+.flair-card-3-21 {
+    background-position: -498px -336px
+}
+
+.flair-card-3-22 {
+    background-position: -498px -352px
+}
+
+.flair-card-3-23 {
+    background-position: -498px -368px
+}
+
+.flair-card-3-24 {
+    background-position: -498px -384px
+}
+
+.flair-card-3-25 {
+    background-position: -498px -400px
+}
+
+.flair-card-3-26 {
+    background-position: -498px -416px
+}
+
+.flair-card-3-27 {
+    background-position: -498px -432px
+}
+
+.flair-card-3-28 {
+    background-position: -498px -448px
+}
+
+.flair-card-3-29 {
+    background-position: -498px -464px
+}
+
+.flair-card-3-30 {
+    background-position: -498px -480px
+}
+
+.flair-card-4-0 {
+    background-position: -664px 0
+}
+
+.flair-card-4-1 {
+    background-position: -664px -16px
+}
+
+.flair-card-4-2 {
+    background-position: -664px -32px
+}
+
+.flair-card-4-3 {
+    background-position: -664px -48px
+}
+
+.flair-card-4-4 {
+    background-position: -664px -64px
+}
+
+.flair-card-4-5 {
+    background-position: -664px -80px
+}
+
+.flair-card-4-6 {
+    background-position: -664px -96px
+}
+
+.flair-card-4-7 {
+    background-position: -664px -112px
+}
+
+.flair-card-4-8 {
+    background-position: -664px -128px
+}
+
+.flair-card-4-9 {
+    background-position: -664px -144px
+}
+
+.flair-card-4-10 {
+    background-position: -664px -160px
+}
+
+.flair-card-4-11 {
+    background-position: -664px -176px
+}
+
+.flair-card-4-12 {
+    background-position: -664px -192px
+}
+
+.flair-card-4-13 {
+    background-position: -664px -208px
+}
+
+.flair-card-4-14 {
+    background-position: -664px -224px
+}
+
+.flair-card-4-15 {
+    background-position: -664px -240px
+}
+
+.flair-card-4-16 {
+    background-position: -664px -256px
+}
+
+.flair-card-4-17 {
+    background-position: -664px -272px
+}
+
+.flair-card-4-18 {
+    background-position: -664px -288px
+}
+
+.flair-card-4-19 {
+    background-position: -664px -304px
+}
+
+.flair-card-4-20 {
+    background-position: -664px -320px
+}
+
+.flair-card-4-21 {
+    background-position: -664px -336px
+}
+
+.flair-card-4-22 {
+    background-position: -664px -352px
+}
+
+.flair-card-4-23 {
+    background-position: -664px -368px
+}
+
+.flair-card-4-24 {
+    background-position: -664px -384px
+}
+
+.flair-card-4-25 {
+    background-position: -664px -400px
+}
+
+.flair-card-4-26 {
+    background-position: -664px -416px
+}
+
+.flair-card-4-27 {
+    background-position: -664px -432px
+}
+
+.flair-card-4-28 {
+    background-position: -664px -448px
+}
+
+.flair-card-4-29 {
+    background-position: -664px -464px
+}
+
+.flair-card-4-30 {
+    background-position: -664px -480px
+}
+
+.flair-card-5-0 {
+    background-position: -830px 0
+}
+
+.flair-card-5-1 {
+    background-position: -830px -16px
+}
+
+.flair-card-5-2 {
+    background-position: -830px -32px
+}
+
+.flair-card-5-3 {
+    background-position: -830px -48px
+}
+
+.flair-card-5-4 {
+    background-position: -830px -64px
+}
+
+.flair-card-5-5 {
+    background-position: -830px -80px
+}
+
+.flair-card-5-6 {
+    background-position: -830px -96px
+}
+
+.flair-card-5-7 {
+    background-position: -830px -112px
+}
+
+.flair-card-5-8 {
+    background-position: -830px -128px
+}
+
+.flair-card-5-9 {
+    background-position: -830px -144px
+}
+
+.flair-card-5-10 {
+    background-position: -830px -160px
+}
+
+.flair-card-5-11 {
+    background-position: -830px -176px
+}
+
+.flair-card-5-12 {
+    background-position: -830px -192px
+}
+
+.flair-card-5-13 {
+    background-position: -830px -208px
+}
+
+.flair-card-5-14 {
+    background-position: -830px -224px
+}
+
+.flair-card-5-15 {
+    background-position: -830px -240px
+}
+
+.flair-card-5-16 {
+    background-position: -830px -256px
+}
+
+.flair-card-5-17 {
+    background-position: -830px -272px
+}
+
+.flair-card-5-18 {
+    background-position: -830px -288px
+}
+
+.flair-card-5-19 {
+    background-position: -830px -304px
+}
+
+.flair-card-5-20 {
+    background-position: -830px -320px
+}
+
+.flair-card-5-21 {
+    background-position: -830px -336px
+}
+
+.flair-card-5-22 {
+    background-position: -830px -352px
+}
+
+.flair-card-5-23 {
+    background-position: -830px -368px
+}
+
+.flair-card-5-24 {
+    background-position: -830px -384px
+}
+
+.flair-card-5-25 {
+    background-position: -830px -400px
+}
+
+.flair-card-5-26 {
+    background-position: -830px -416px
+}
+
+.flair-card-5-27 {
+    background-position: -830px -432px
+}
+
+.flair-card-5-28 {
+    background-position: -830px -448px
+}
+
+.flair-card-5-29 {
+    background-position: -830px -464px
+}
+
+.flair-card-5-30 {
+    background-position: -830px -480px
+}
+
+.flair-card-6-0 {
+    background-position: -996px 0
+}
+
+.flair-card-6-1 {
+    background-position: -996px -16px
+}
+
+.flair-card-6-2 {
+    background-position: -996px -32px
+}
+
+.flair-card-6-3 {
+    background-position: -996px -48px
+}
+
+.flair-card-6-4 {
+    background-position: -996px -64px
+}
+
+.flair-card-6-5 {
+    background-position: -996px -80px
+}
+
+.flair-card-6-6 {
+    background-position: -996px -96px
+}
+
+.flair-card-6-7 {
+    background-position: -996px -112px
+}
+
+.flair-card-6-8 {
+    background-position: -996px -128px
+}
+
+.flair-card-6-9 {
+    background-position: -996px -144px
+}
+
+.flair-card-6-10 {
+    background-position: -996px -160px
+}
+
+.flair-card-6-11 {
+    background-position: -996px -176px
+}
+
+.flair-card-6-12 {
+    background-position: -996px -192px
+}
+
+.flair-card-6-13 {
+    background-position: -996px -208px
+}
+
+.flair-card-6-14 {
+    background-position: -996px -224px
+}
+
+.flair-card-6-15 {
+    background-position: -996px -240px
+}
+
+.flair-card-6-16 {
+    background-position: -996px -256px
+}
+
+.flair-card-6-17 {
+    background-position: -996px -272px
+}
+
+.flair-card-6-18 {
+    background-position: -996px -288px
+}
+
+.flair-card-6-19 {
+    background-position: -996px -304px
+}
+
+.flair-card-6-20 {
+    background-position: -996px -320px
+}
+
+.flair-card-6-21 {
+    background-position: -996px -336px
+}
+
+.flair-card-6-22 {
+    background-position: -996px -352px
+}
+
+.flair-card-6-23 {
+    background-position: -996px -368px
+}
+
+.flair-card-6-24 {
+    background-position: -996px -384px
+}
+
+.flair-card-6-25 {
+    background-position: -996px -400px
+}
+
+.flair-card-6-26 {
+    background-position: -996px -416px
+}
+
+.flair-card-6-27 {
+    background-position: -996px -432px
+}
+
+.flair-card-6-28 {
+    background-position: -996px -448px
+}
+
+.flair-card-6-29 {
+    background-position: -996px -464px
+}
+
+.flair-card-6-30 {
+    background-position: -996px -480px
+}
+
+.flair-card-7-0 {
+    background-position: -1162px 0
+}
+
+.flair-card-7-1 {
+    background-position: -1162px -16px
+}
+
+.flair-card-7-2 {
+    background-position: -1162px -32px
+}
+
+.flair-card-7-3 {
+    background-position: -1162px -48px
+}
+
+.flair-card-7-4 {
+    background-position: -1162px -64px
+}
+
+.flair-card-7-5 {
+    background-position: -1162px -80px
+}
+
+.flair-card-7-6 {
+    background-position: -1162px -96px
+}
+
+.flair-card-7-7 {
+    background-position: -1162px -112px
+}
+
+.flair-card-7-8 {
+    background-position: -1162px -128px
+}
+
+.flair-card-7-9 {
+    background-position: -1162px -144px
+}
+
+.flair-card-7-10 {
+    background-position: -1162px -160px
+}
+
+.flair-card-7-11 {
+    background-position: -1162px -176px
+}
+
+.flair-card-7-12 {
+    background-position: -1162px -192px
+}
+
+.flair-card-7-13 {
+    background-position: -1162px -208px
+}
+
+.flair-card-7-14 {
+    background-position: -1162px -224px
+}
+
+.flair-card-7-15 {
+    background-position: -1162px -240px
+}
+
+.flair-card-7-16 {
+    background-position: -1162px -256px
+}
+
+.flair-card-7-17 {
+    background-position: -1162px -272px
+}
+
+.flair-card-7-18 {
+    background-position: -1162px -288px
+}
+
+.flair-card-7-19 {
+    background-position: -1162px -304px
+}
+
+.flair-card-7-20 {
+    background-position: -1162px -320px
+}
+
+.flair-card-7-21 {
+    background-position: -1162px -336px
+}
+
+.flair-card-7-22 {
+    background-position: -1162px -352px
+}
+
+.flair-card-7-23 {
+    background-position: -1162px -368px
+}
+
+.flair-card-7-24 {
+    background-position: -1162px -384px
+}
+
+.flair-card-7-25 {
+    background-position: -1162px -400px
+}
+
+.flair-card-7-26 {
+    background-position: -1162px -416px
+}
+
+.flair-card-7-27 {
+    background-position: -1162px -432px
+}
+
+.flair-card-7-28 {
+    background-position: -1162px -448px
+}
+
+.flair-card-7-29 {
+    background-position: -1162px -464px
+}
+
+.flair-card-7-30 {
+    background-position: -1162px -480px
+}
+
+.flair-card-8-0 {
+    background-position: -1328px 0
+}
+
+.flair-card-8-1 {
+    background-position: -1328px -16px
+}
+
+.flair-card-8-2 {
+    background-position: -1328px -32px
+}
+
+.flair-card-8-3 {
+    background-position: -1328px -48px
+}
+
+.flair-card-8-4 {
+    background-position: -1328px -64px
+}
+
+.flair-card-8-5 {
+    background-position: -1328px -80px
+}
+
+.flair-card-8-6 {
+    background-position: -1328px -96px
+}
+
+.flair-card-8-7 {
+    background-position: -1328px -112px
+}
+
+.flair-card-8-8 {
+    background-position: -1328px -128px
+}
+
+.flair-card-8-9 {
+    background-position: -1328px -144px
+}
+
+.flair-card-8-10 {
+    background-position: -1328px -160px
+}
+
+.flair-card-8-11 {
+    background-position: -1328px -176px
+}
+
+.flair-card-8-12 {
+    background-position: -1328px -192px
+}
+
+.flair-card-8-13 {
+    background-position: -1328px -208px
+}
+
+.flair-card-8-14 {
+    background-position: -1328px -224px
+}
+
+.flair-card-8-15 {
+    background-position: -1328px -240px
+}
+
+.flair-card-8-16 {
+    background-position: -1328px -256px
+}
+
+.flair-card-8-17 {
+    background-position: -1328px -272px
+}
+
+.flair-card-8-18 {
+    background-position: -1328px -288px
+}
+
+.flair-card-8-19 {
+    background-position: -1328px -304px
+}
+
+.flair-card-8-20 {
+    background-position: -1328px -320px
+}
+
+.flair-card-8-21 {
+    background-position: -1328px -336px
+}
+
+.flair-card-8-22 {
+    background-position: -1328px -352px
+}
+
+.flair-card-8-23 {
+    background-position: -1328px -368px
+}
+
+.flair-card-8-24 {
+    background-position: -1328px -384px
+}
+
+.flair-card-8-25 {
+    background-position: -1328px -400px
+}
+
+.flair-card-8-26 {
+    background-position: -1328px -416px
+}
+
+.flair-card-8-27 {
+    background-position: -1328px -432px
+}
+
+.flair-card-8-28 {
+    background-position: -1328px -448px
+}
+
+.flair-card-8-29 {
+    background-position: -1328px -464px
+}
+
+.flair-card-8-30 {
+    background-position: -1328px -480px
+}
+
+.flair-card-9-0 {
+    background-position: -1494px 0
+}
+
+.flair-card-9-1 {
+    background-position: -1494px -16px
+}
+
+.flair-card-9-2 {
+    background-position: -1494px -32px
+}
+
+.flair-card-9-3 {
+    background-position: -1494px -48px
+}
+
+.flair-card-9-4 {
+    background-position: -1494px -64px
+}
+
+.flair-card-9-5 {
+    background-position: -1494px -80px
+}
+
+.flair-card-9-6 {
+    background-position: -1494px -96px
+}
+
+.flair-card-9-7 {
+    background-position: -1494px -112px
+}
+
+.flair-card-9-8 {
+    background-position: -1494px -128px
+}
+
+.flair-card-9-9 {
+    background-position: -1494px -144px
+}
+
+.flair-card-9-10 {
+    background-position: -1494px -160px
+}
+
+.flair-card-9-11 {
+    background-position: -1494px -176px
+}
+
+.flair-card-9-12 {
+    background-position: -1494px -192px
+}
+
+.flair-card-9-13 {
+    background-position: -1494px -208px
+}
+
+.flair-card-9-14 {
+    background-position: -1494px -224px
+}
+
+.flair-card-9-15 {
+    background-position: -1494px -240px
+}
+
+.flair-card-9-16 {
+    background-position: -1494px -256px
+}
+
+.flair-card-9-17 {
+    background-position: -1494px -272px
+}
+
+.flair-card-9-18 {
+    background-position: -1494px -288px
+}
+
+.flair-card-9-19 {
+    background-position: -1494px -304px
+}
+
+.flair-card-9-20 {
+    background-position: -1494px -320px
+}
+
+.flair-card-9-21 {
+    background-position: -1494px -336px
+}
+
+.flair-card-9-22 {
+    background-position: -1494px -352px
+}
+
+.flair-card-9-23 {
+    background-position: -1494px -368px
+}
+
+.flair-card-9-24 {
+    background-position: -1494px -384px
+}
+
+.flair-card-9-25 {
+    background-position: -1494px -400px
+}
+
+.flair-card-9-26 {
+    background-position: -1494px -416px
+}
+
+.flair-card-9-27 {
+    background-position: -1494px -432px
+}
+
+.flair-card-9-28 {
+    background-position: -1494px -448px
+}
+
+.flair-card-9-29 {
+    background-position: -1494px -464px
+}
+
+.flair-card-9-30 {
+    background-position: -1494px -480px
+}
+
+.flair-card-10-0 {
+    background-position: -1660px 0
+}
+
+.flair-card-10-1 {
+    background-position: -1660px -16px
+}
+
+.flair-card-10-2 {
+    background-position: -1660px -32px
+}
+
+.flair-card-10-3 {
+    background-position: -1660px -48px
+}
+
+.flair-card-10-4 {
+    background-position: -1660px -64px
+}
+
+.flair-card-10-5 {
+    background-position: -1660px -80px
+}
+
+.flair-card-10-6 {
+    background-position: -1660px -96px
+}
+
+.flair-card-10-7 {
+    background-position: -1660px -112px
+}
+
+.flair-card-10-8 {
+    background-position: -1660px -128px
+}
+
+.flair-card-10-9 {
+    background-position: -1660px -144px
+}
+
+.flair-card-10-10 {
+    background-position: -1660px -160px
+}
+
+.flair-card-10-11 {
+    background-position: -1660px -176px
+}
+
+.flair-card-10-12 {
+    background-position: -1660px -192px
+}
+
+.flair-card-10-13 {
+    background-position: -1660px -208px
+}
+
+.flair-card-10-14 {
+    background-position: -1660px -224px
+}
+
+.flair-card-10-15 {
+    background-position: -1660px -240px
+}
+
+.flair-card-10-16 {
+    background-position: -1660px -256px
+}
+
+.flair-card-10-17 {
+    background-position: -1660px -272px
+}
+
+.flair-card-10-18 {
+    background-position: -1660px -288px
+}
+
+.flair-card-10-19 {
+    background-position: -1660px -304px
+}
+
+.flair-card-10-20 {
+    background-position: -1660px -320px
+}
+
+.flair-card-10-21 {
+    background-position: -1660px -336px
+}
+
+.flair-card-10-22 {
+    background-position: -1660px -352px
+}
+
+.flair-card-10-23 {
+    background-position: -1660px -368px
+}
+
+.flair-card-10-24 {
+    background-position: -1660px -384px
+}
+
+.flair-card-10-25 {
+    background-position: -1660px -400px
+}
+
+.flair-card-10-26 {
+    background-position: -1660px -416px
+}
+
+.flair-card-10-27 {
+    background-position: -1660px -432px
+}
+
+.flair-card-10-28 {
+    background-position: -1660px -448px
+}
+
+.flair-card-10-29 {
+    background-position: -1660px -464px
+}
+
+.flair-card-10-30 {
+    background-position: -1660px -480px
+}
+
+.flair-card-11-0 {
+    background-position: -1826px 0
+}
+
+.flair-card-11-1 {
+    background-position: -1826px -16px
+}
+
+.flair-card-11-2 {
+    background-position: -1826px -32px
+}
+
+.flair-card-11-3 {
+    background-position: -1826px -48px
+}
+
+.flair-card-11-4 {
+    background-position: -1826px -64px
+}
+
+.flair-card-11-5 {
+    background-position: -1826px -80px
+}
+
+.flair-card-11-6 {
+    background-position: -1826px -96px
+}
+
+.flair-card-11-7 {
+    background-position: -1826px -112px
+}
+
+.flair-card-11-8 {
+    background-position: -1826px -128px
+}
+
+.flair-card-11-9 {
+    background-position: -1826px -144px
+}
+
+.flair-card-11-10 {
+    background-position: -1826px -160px
+}
+
+.flair-card-11-11 {
+    background-position: -1826px -176px
+}
+
+.flair-card-11-12 {
+    background-position: -1826px -192px
+}
+
+.flair-card-11-13 {
+    background-position: -1826px -208px
+}
+
+.flair-card-11-14 {
+    background-position: -1826px -224px
+}
+
+.flair-card-11-15 {
+    background-position: -1826px -240px
+}
+
+.flair-card-11-16 {
+    background-position: -1826px -256px
+}
+
+.flair-card-11-17 {
+    background-position: -1826px -272px
+}
+
+.flair-card-11-18 {
+    background-position: -1826px -288px
+}
+
+.flair-card-11-19 {
+    background-position: -1826px -304px
+}
+
+.flair-card-11-20 {
+    background-position: -1826px -320px
+}
+
+.flair-card-11-21 {
+    background-position: -1826px -336px
+}
+
+.flair-card-11-22 {
+    background-position: -1826px -352px
+}
+
+.flair-card-11-23 {
+    background-position: -1826px -368px
+}
+
+.flair-card-11-24 {
+    background-position: -1826px -384px
+}
+
+.flair-card-11-25 {
+    background-position: -1826px -400px
+}
+
+.flair-card-11-26 {
+    background-position: -1826px -416px
+}
+
+.flair-card-11-27 {
+    background-position: -1826px -432px
+}
+
+.flair-card-11-28 {
+    background-position: -1826px -448px
+}
+
+.flair-card-11-29 {
+    background-position: -1826px -464px
+}
+
+.flair-card-11-30 {
+    background-position: -1826px -480px
+}
+
+.flair-card-12-0 {
+    background-position: -1992px 0
+}
+
+.flair-card-12-1 {
+    background-position: -1992px -16px
+}
+
+.flair-card-12-2 {
+    background-position: -1992px -32px
+}
+
+.flair-card-12-3 {
+    background-position: -1992px -48px
+}
+
+.flair-card-12-4 {
+    background-position: -1992px -64px
+}
+
+.flair-card-12-5 {
+    background-position: -1992px -80px
+}
+
+.flair-card-12-6 {
+    background-position: -1992px -96px
+}
+
+.flair-card-12-7 {
+    background-position: -1992px -112px
+}
+
+.flair-card-12-8 {
+    background-position: -1992px -128px
+}
+
+.flair-card-12-9 {
+    background-position: -1992px -144px
+}
+
+.flair-card-12-10 {
+    background-position: -1992px -160px
+}
+
+.flair-card-12-11 {
+    background-position: -1992px -176px
+}
+
+.flair-card-12-12 {
+    background-position: -1992px -192px
+}
+
+.flair-card-12-13 {
+    background-position: -1992px -208px
+}
+
+.flair-card-12-14 {
+    background-position: -1992px -224px
+}
+
+.flair-card-12-15 {
+    background-position: -1992px -240px
+}
+
+.flair-card-12-16 {
+    background-position: -1992px -256px
+}
+
+.flair-card-12-17 {
+    background-position: -1992px -272px
+}
+
+.flair-card-12-18 {
+    background-position: -1992px -288px
+}
+
+.flair-card-12-19 {
+    background-position: -1992px -304px
+}
+
+.flair-card-12-20 {
+    background-position: -1992px -320px
+}
+
+.flair-card-12-21 {
+    background-position: -1992px -336px
+}
+
+.flair-card-12-22 {
+    background-position: -1992px -352px
+}
+
+.flair-card-12-23 {
+    background-position: -1992px -368px
+}
+
+.flair-card-12-24 {
+    background-position: -1992px -384px
+}
+
+.flair-card-12-25 {
+    background-position: -1992px -400px
+}
+
+.flair-card-12-26 {
+    background-position: -1992px -416px
+}
+
+.flair-card-12-27 {
+    background-position: -1992px -432px
+}
+
+.flair-card-12-28 {
+    background-position: -1992px -448px
+}
+
+.flair-card-12-29 {
+    background-position: -1992px -464px
+}
+
+.flair-card-12-30 {
+    background-position: -1992px -480px
+}
+
+.side .md>ol:last-of-type {
+    display: flex;
+    padding: 0 0 0 100px;
+    margin: 0;
+    position: absolute;
+    top: 253px;
+    left: 17px;
+    width: calc(100% - 650px);
+    background: rgba(51, 20, 52, .75);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .1)
+}
+
+.side .md>ol:last-of-type li:first-child {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-grow: 2;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    min-width: 0;
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: strech;
+    color: #FFC70E;
+    text-transform: uppercase
+}
+
+.side .md>ol:last-of-type li:first-child strong {
+    text-shadow: 0 0 5px rgba(255, 199, 1, .25);
+    padding: 8px;
+    transform: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center
+}
+
+.side .md>ol:last-of-type li {
+    transform: none;
+    list-style: none
+}
+
+.side .md>ol:last-of-type li a {
+    min-height: 16px;
+    position: relative;
+    display: block;
+    margin: 12px 8px;
+    padding-left: 12px;
+    transform: none;
+    color: #EEE;
+    text-shadow: 1px 1px 0 #000;
+    text-decoration: none;
+    font-size: 14.5px!important;
+    font-weight: 400
+}
+
+.side .md>ol:last-of-type li a::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    opacity: .85;
+    background: rgba(255, 199, 1, .9);
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 3px rgba(255, 199, 1, .9);
+    border: 1px solid #fdda75;
+    border-radius: 0
+}
+
+.md p>a[href="#s"],
+a[href="#s"] {
+    text-decoration: none!important;
+    cursor: default;
+    background: #000;
+    color: #fff!important;
+    display: inline-block
+}
+
+.md p>a[href="#s"]::after,
+a[href="#s"]::after {
+    content: attr(title);
+    color: #000;
+    padding: 0 .5em;
+    visibility: visible
+}
+
+.md p>a[href="#s"]:hover,
+a[href="#s"]:hover {
+    color: #fff!important
+}
+
+.md p>a[href="#s"]:active::after,
+.md p>a[href="#s"]:hover::after,
+.side .md>ul:nth-of-type(6) li:first-of-type,
+a[href="#s"]:active::after,
+a[href="#s"]:hover::after {
+    color: #fff
+}
+
+.arrow.down:hover::after,
+.comment .arrow.downmod:hover::after {
+    position: absolute;
+    display: block;
+    z-index: 11;
+    width: 210px;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: rgba(51, 20, 52, .75);
+    color: #fff;
+    content: "Keep this sub user-friendly - only downvote this post if it adds no value. Do not downvote based on opinion.";
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 25px;
+    margin-top: 25px;
+    box-shadow: 3px 3px 3px #9C9B9B;
+    opacity: 1
+}
+
+.side .md>ul:nth-of-type(6) {
+    background-color: #101828;
+    height: 42px;
+    overflow: hidden;
+    margin: 0 0 5px;
+    padding-left: 0;
+    position: absolute;
+    top: 253px;
+    left: calc(100% - 530px);
+    width: 195px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    z-index: 9999999
+}
+
+.side .md>ul:nth-of-type(6):hover {
+    height: auto;
+    background-color: #1E2636
+}
+
+.side .md>ul:nth-of-type(6) li {
+    line-height: 42px
+}
+
+.side .md>ul:nth-of-type(6) li a {
+    display: block;
+    color: #FFF;
+    padding-left: 10px
+}
+
+.side .md>ul:nth-of-type(6) li a:hover {
+    background: #9E9E9E
+}
+
+.side .md>ul:nth-of-type(6) li:first-of-type a {
+    color: #fff
+}
+
+.side a[href$="#noflair-icon"] {
+    border-top: 1px solid #eee
+}
+
+.side a[href$="#news-icon"] {
+    background: #17233a
+}
+
+.side a[href$="#event-icon"] {
+    background: #1f2e4c
+}
+
+.side a[href$="#guide-icon"] {
+    background: #26395f
+}
+
+.side a[href$="#abyssian-icon"] {
+    background: #2d4471
+}
+
+.side a[href$="#magmar-icon"] {
+    background: #344f83
+}
+
+.side a[href$="#lyonar-icon"] {
+    background: #3c5a95
+}
+
+.side a[href$="#songhai-icon"] {
+    background: #4365a8
+}
+
+.side a[href$="#vanar-icon"] {
+    background: #4c70b8
+}
+
+.side a[href$="#vetruvian-icon"] {
+    background: #5f7fbf
+}
+
+.side a[href$="#gauntlet-icon"] {
+    background: #718dc6
+}
+
+.side a[href$="#vod-icon"] {
+    background: #839ccd;
+    color: #333!important
+}
+
+.side a[href$="#artwork-icon"] {
+    background: #95aad5;
+    color: #333!important
+}
+
+.search-page #search,
+ul.res-search-tabs {
+    display: inline-block
+}
