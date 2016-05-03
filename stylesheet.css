@@ -5526,54 +5526,64 @@ a[href="#s"]:hover::after {
 .side a[href$="#news-icon"] {
     background: #17233a
 }
-
 .side a[href$="#event-icon"] {
     background: #1f2e4c
 }
-
 .side a[href$="#guide-icon"] {
     background: #26395f
 }
-
-.side a[href$="#abyssian-icon"] {
+.side a[href$="#gauntlet-icon"] {
     background: #2d4471
 }
-
-.side a[href$="#magmar-icon"] {
-    background: #344f83
-}
-
-.side a[href$="#lyonar-icon"] {
-    background: #3c5a95
-}
-
-.side a[href$="#songhai-icon"] {
-    background: #4365a8
-}
-
-.side a[href$="#vanar-icon"] {
-    background: #4c70b8
-}
-
-.side a[href$="#vetruvian-icon"] {
-    background: #5f7fbf
-}
-
-.side a[href$="#gauntlet-icon"] {
-    background: #718dc6
-}
-
 .side a[href$="#vod-icon"] {
-    background: #839ccd;
-    color: #333!important
+    background: #344f83;
 }
-
 .side a[href$="#artwork-icon"] {
-    background: #95aad5;
-    color: #333!important
+    background: #3c5a95;
+}
+.side a[href$="#abyssian-icon"] {
+    background: #D61FFB;
+}
+.side a[href$="#magmar-icon"] {
+    background: #4DB802;
+}
+.side a[href$="#lyonar-icon"] {
+    background: #FFD802;
+    color: black !important;
+}
+.side a[href$="#songhai-icon"] {
+    background: #BE0001;
+}
+.side a[href$="#vanar-icon"] {
+    background: #00B9FD;
+    color: black !important;
+}
+.side a[href$="#vetruvian-icon"] {
+    background: #FF6000;
 }
 
 .search-page #search,
 ul.res-search-tabs {
     display: inline-block
+}
+
+.linkflairlabel[title='Abyssian'] {
+    background: #D61FFB;
+}
+.linkflairlabel[title='Magmar'] {
+    background: #4DB802;
+}
+.linkflairlabel[title='Lyonar'] {
+    background: #FFD802;
+    color: black;
+}
+.linkflairlabel[title='Songhai'] {
+    background: #BE0001;
+}
+.linkflairlabel[title='Vanar'] {
+    background: #00B9FD;
+    color: black;
+}
+.linkflairlabel[title='Vetruvian'] {
+    background: #FF6000;
 }
