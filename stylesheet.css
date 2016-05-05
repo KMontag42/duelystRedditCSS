@@ -5630,3 +5630,9 @@ ul.res-search-tabs {
 .thing[data-author="duelystwikibot"]:hover .usertext-body:before {
     display: none;
 }
+.subreddit-rules-page {
+    padding-top: 50px;
+}
+.subreddit-rules-page:before {
+    top: 50px;
+}
