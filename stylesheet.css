@@ -5435,9 +5435,9 @@ span[class*=flair-card] {
     transform: none;
     color: #EEE;
     text-shadow: 1px 1px 0 #000;
-    text-decoration: none;
     font-size: 14.5px!important;
-    font-weight: 400
+    font-weight: 400;
+    text-decoration: underline;
 }
 
 .side .md>ol:last-of-type li a::before {
