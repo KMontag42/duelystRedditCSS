@@ -7,7 +7,7 @@ span.pagename.redditname a {
     color: transparent;
     display: block;
     width: 420px;
-    background-image: url(%%duelysttitlenew%%);
+    background-image: url(%%newbannerlink%%);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -2096,9 +2096,24 @@ body:not(.comments-page)>.content .link .midcol {
     border: 1px solid #e1e1e1;
     border-radius: 5px;
     padding: 0;
-    margin: 150px 16px 100px;
+    margin: 75px 16px 100px;
     width: 300px;
     background: #fff
+}
+
+.side:before {
+    display: block;
+    position: relative;
+    width: 300px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background: url(%%biglogo%%) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 280px;
+    content: "";
+    background-color: #212121;
 }
 
 #searchexpando {
@@ -2204,7 +2219,6 @@ body:not(.search-page) #search input[type=text]:focus {
     border-radius: 3.5px;
     padding: 3px;
     text-transform: uppercase;
-    transition: .2s
 }
 
 .morelink a,
@@ -2222,17 +2236,25 @@ body:not(.search-page) #search input[type=text]:focus {
 }
 
 .side .submit-link {
-    position: absolute;
-    width: 300px;
-    top: 310px;
-    right: 16px
+    width: 150px!important;
+    position: relative!important;
+    display: block!important;
+    margin-left: 0px!important;
+    text-indent: 0!important;
+    background-position: -4px 0!important;
+    margin-top: -5px;
+}
+
+.side .submit-link .morelink:hover {
+
 }
 
 .side .submit-text {
-    position: absolute;
-    width: 300px;
-    top: 355px;
-    right: 16px
+    width: 150px!important;
+    position: relative!important;
+    float: right!important;
+    margin-top: -47px!important;
+    text-align: right!important;
 }
 
 .titlebox {
@@ -3200,7 +3222,11 @@ button:active {
 
 .morelink:hover,
 .side .titlebox .md h3 a:hover {
-    background: #666
+    background: #783946; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#783946, #401940); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#783946, #401940); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#783946, #401940); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#783946, #401940); /* Standard syntax */
 }
 
 .morelink:active,
@@ -3828,7 +3854,7 @@ html[lang=dm] .side .sidecontentbox a {
 }
 
 #header {
-    background: url(%%banner%%) no-repeat;
+    background: url(%%newbanner%%) no-repeat;
     background-position-x: center!important;
     background-position: center!important
 }
@@ -5375,7 +5401,6 @@ span[class*=flair-card] {
     flex-grow: 2;
     left: 0;
     width: 100px;
-    height: 100%;
     min-width: 0;
     -webkit-display: flex;
     -webkit-justify-content: center;
@@ -5586,21 +5611,6 @@ ul.res-search-tabs {
 }
 .linkflairlabel[title='Vetruvian'] {
     background: #FF6000;
-}
-.side .md>ul:nth-of-type(1) {
-    height: 20px;
-    overflow: hidden;
-    margin: 0;
-}
-.side .md>ul:nth-of-type(1):before {
-    content: '[ HOVER TO SHOW ]';
-    font-size: 14px;
-}
-.side .md>ul:nth-of-type(1):hover:before {
-    display:none;
-}
-.side .md>ul:nth-of-type(1):hover {
-    height: auto;
 }
 .side .md>h3:nth-of-type(4) {
     margin-bottom: 0;
