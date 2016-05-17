@@ -2052,7 +2052,7 @@ body:not(.submit-page) .tabmenu::after {
 
 div.content {
     border-radius: 4px;
-    margin: 50px 335px 10px 16px;
+    margin: 85px 335px 10px 16px;
     border: 1px solid #e1e1e1;
     background-color: #fff;
     font-size: 12px
@@ -5382,7 +5382,7 @@ span[class*=flair-card] {
 
 .side .md>ol:last-of-type {
     display: flex;
-    padding: 0 0 0 100px;
+    padding: 10px 0 10px 100px;
     margin: 0;
     position: absolute;
     top: 253px;
@@ -5390,7 +5390,6 @@ span[class*=flair-card] {
     width: calc(100% - 650px);
     background: rgba(51, 20, 52, .75);
     border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, .1)
 }
 
 .side .md>ol:last-of-type li:first-child {
@@ -5401,7 +5400,9 @@ span[class*=flair-card] {
     flex-grow: 2;
     left: 0;
     width: 100px;
+    height: 50px;
     min-width: 0;
+    font-size: 20px;
     -webkit-display: flex;
     -webkit-justify-content: center;
     -webkit-align-items: strech;
@@ -5512,7 +5513,7 @@ a[href="#s"]:hover::after {
     margin: 0 0 5px;
     padding-left: 0;
     position: absolute;
-    top: 253px;
+    top: 270px;
     left: calc(100% - 530px);
     width: 195px;
     border-radius: 5px;
