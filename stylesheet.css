@@ -6,7 +6,7 @@ button {
 span.pagename.redditname a {
     color: transparent;
     display: block;
-    width: 420px;
+    width: 351px;
     background-image: url(%%newbannerlink%%);
     background-size: contain;
     background-position: center;
@@ -2094,7 +2094,7 @@ body:not(.comments-page)>.content .link .midcol {
 
 .side {
     border: 1px solid #e1e1e1;
-    border-radius: 5px;
+    border-radius: 12px;
     padding: 0;
     margin: 75px 16px 100px;
     width: 300px;
@@ -2108,12 +2108,9 @@ body:not(.comments-page)>.content .link .midcol {
     text-align: center;
     font-size: 12px;
     color: #fff;
-    background: url(%%biglogo%%) no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 280px;
+    background: url(%%biglogo%%) no-repeat center;
+    padding-top: 300px;
     content: "";
-    background-color: #212121;
 }
 
 #searchexpando {
