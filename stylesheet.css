@@ -2096,7 +2096,7 @@ body:not(.comments-page)>.content .link .midcol {
     border: 1px solid #e1e1e1;
     border-radius: 12px;
     padding: 0;
-    margin: 75px 16px 100px;
+    margin: 115px 16px 100px;
     width: 300px;
     background: #fff
 }
@@ -2493,7 +2493,6 @@ body.res .RESshortcutside:active {
     letter-spacing: 0;
     font-weight: 700;
     text-align: center;
-    transition: .3s background ease;
     font-size: 12px!important;
     width: 276px;
     margin: 1.5em 0;
@@ -3219,11 +3218,11 @@ button:active {
 
 .morelink:hover,
 .side .titlebox .md h3 a:hover {
-    background: #783946; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#783946, #401940); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#783946, #401940); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#783946, #401940); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#783946, #401940); /* Standard syntax */
+    background: #1c4aa7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1c4aa7, #dc4228); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1c4aa7, #dc4228); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1c4aa7, #dc4228); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1c4aa7, #dc4228); /* Standard syntax */
 }
 
 .morelink:active,
@@ -5382,11 +5381,26 @@ span[class*=flair-card] {
     padding: 10px 0 10px 100px;
     margin: 0;
     position: absolute;
-    top: 253px;
+    top: 260px;
     left: 17px;
-    width: calc(100% - 650px);
-    background: rgba(51, 20, 52, .75);
+    width: calc(100% - 452px);
+    background: #1c4aa7;
     border-radius: 5px;
+}
+
+@media (max-width: 1280px) {
+    .side .md>ol:last-of-type {
+        padding: 0 0 0 100px;
+    }
+}
+
+@media (max-width: 905px) {
+    .side .md>ol:last-of-type {
+        display: none;
+    }
+    div.content {
+        margin: 15px 335px 10px 16px;
+    }
 }
 
 .side .md>ol:last-of-type li:first-child {
@@ -5397,7 +5411,6 @@ span[class*=flair-card] {
     flex-grow: 2;
     left: 0;
     width: 100px;
-    height: 50px;
     min-width: 0;
     font-size: 20px;
     -webkit-display: flex;
@@ -5443,14 +5456,12 @@ span[class*=flair-card] {
     position: absolute;
     width: 4px;
     opacity: .85;
-    background: rgba(255, 199, 1, .9);
-    height: 100%;
+    background: greenyellow;
+    height: 26px;
     display: block;
     left: 0;
-    top: 0;
-    box-shadow: 0 0 3px rgba(255, 199, 1, .9);
-    border: 1px solid #fdda75;
-    border-radius: 0
+    top: -4px;
+    border-radius: 83px;
 }
 
 .md p>a[href="#s"],
@@ -5477,7 +5488,7 @@ a[href="#s"]:hover {
 
 .md p>a[href="#s"]:active::after,
 .md p>a[href="#s"]:hover::after,
-.side .md>ul:nth-of-type(6) li:first-of-type,
+.side .md>ul:last-of-type li:first-of-type,
 a[href="#s"]:active::after,
 a[href="#s"]:hover::after {
     color: #fff
@@ -5503,42 +5514,41 @@ a[href="#s"]:hover::after {
     opacity: 1
 }
 
-.side .md>ul:nth-of-type(6) {
+.side .md>ul:last-of-type {
     background-color: #101828;
     height: 42px;
     overflow: hidden;
-    margin: 0 0 5px;
     padding-left: 0;
     position: absolute;
-    top: 270px;
-    left: calc(100% - 530px);
-    width: 195px;
+    top: 295px;
+    left: calc(100% - 317px);
+    width: 300px;
     border-radius: 5px;
     text-align: center;
     font-size: 16px;
-    z-index: 9999999
+    z-index: 9999999;
 }
 
-.side .md>ul:nth-of-type(6):hover {
+.side .md>ul:last-of-type:hover {
     height: auto;
     background-color: #1E2636
 }
 
-.side .md>ul:nth-of-type(6) li {
+.side .md>ul:last-of-type li {
     line-height: 42px
 }
 
-.side .md>ul:nth-of-type(6) li a {
+.side .md>ul:last-of-type li a {
     display: block;
     color: #FFF;
     padding-left: 10px
 }
 
-.side .md>ul:nth-of-type(6) li a:hover {
+.side .md>ul:last-of-type li a:hover {
     background: #9E9E9E
 }
 
-.side .md>ul:nth-of-type(6) li:first-of-type a {
+.side .md>ul:last-of-type li:first-of-type a {
     color: #fff
 }
 
